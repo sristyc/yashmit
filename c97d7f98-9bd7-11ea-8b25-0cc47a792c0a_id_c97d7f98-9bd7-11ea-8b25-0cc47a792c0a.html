@@ -1,0 +1,815 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_083{font-family:"Algerian",serif;font-size:18.1px;color:rgb(98,35,34);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_083{font-family:"Algerian",serif;font-size:18.1px;color:rgb(98,35,34);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Times,serif;font-size:11.1px;color:rgb(98,35,34);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Times,serif;font-size:11.1px;color:rgb(98,35,34);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_084{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_084{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Calibri Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Calibri Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:"Calibri",serif;font-size:14.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:"Calibri",serif;font-size:14.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_085{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_085{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_086{font-family:"Book Antiqua",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_086{font-family:"Book Antiqua",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:"Book Antiqua Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:"Book Antiqua Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_087{font-family:"Book Antiqua Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_087{font-family:"Book Antiqua Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Book Antiqua Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Book Antiqua Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:"Book Antiqua",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:"Book Antiqua",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_088{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_088{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_089{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_089{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_090{font-family:Arial,serif;font-size:22.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_090{font-family:Arial,serif;font-size:22.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:20.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:20.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_091{font-family:Arial,serif;font-size:16.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_091{font-family:Arial,serif;font-size:16.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:16.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:16.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:14.1px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:14.1px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:16.0px;color:rgb(0,175,80);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:16.0px;color:rgb(0,175,80);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:14.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:14.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_092{font-family:Arial,serif;font-size:16.0px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_092{font-family:Arial,serif;font-size:16.0px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:16.0px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:16.0px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:14.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:14.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_093{font-family:"Book Antiqua Bold",serif;font-size:16.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_093{font-family:"Book Antiqua Bold",serif;font-size:16.0px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:"Mangal",serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:"Mangal",serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_094{font-family:"Book Antiqua Bold",serif;font-size:12.1px;color:rgb(0,0,255);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_094{font-family:"Book Antiqua Bold",serif;font-size:12.1px;color:rgb(0,0,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_095{font-family:Arial,serif;font-size:28.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_095{font-family:Arial,serif;font-size:28.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_096{font-family:Arial,serif;font-size:20.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_096{font-family:Arial,serif;font-size:20.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_097{font-family:"Mangal Bold",serif;font-size:20.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_097{font-family:"Mangal Bold",serif;font-size:20.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_098{font-family:Times,serif;font-size:20.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_098{font-family:Times,serif;font-size:20.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_099{font-family:"Book Antiqua Bold",serif;font-size:20.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_099{font-family:"Book Antiqua Bold",serif;font-size:20.1px;color:rgb(255,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_100{font-family:Arial,serif;font-size:18.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_100{font-family:Arial,serif;font-size:18.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_101{font-family:"Calibri",serif;font-size:18.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_101{font-family:"Calibri",serif;font-size:18.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_048{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_048{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_049{font-family:Arial,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_049{font-family:Arial,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_050{font-family:"Mangal",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_050{font-family:"Mangal",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_051{font-family:"Cambria",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_051{font-family:"Cambria",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_052{font-family:Arial,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_052{font-family:Arial,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_102{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_102{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_103{font-family:"Mangal",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_103{font-family:"Mangal",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_054{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_054{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_104{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_104{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_053{font-family:"Mangal",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_053{font-family:"Mangal",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_056{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_056{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_057{font-family:"Mangal Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_057{font-family:"Mangal Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_105{font-family:"Mangal Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_105{font-family:"Mangal Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_058{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_058{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_059{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_059{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_060{font-family:"Mangal",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_060{font-family:"Mangal",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_061{font-family:Arial,serif;font-size:10.6px;color:rgb(94,94,94);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_061{font-family:Arial,serif;font-size:10.6px;color:rgb(94,94,94);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_062{font-family:Arial,serif;font-size:10.0px;color:rgb(94,94,94);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_062{font-family:Arial,serif;font-size:10.0px;color:rgb(94,94,94);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_063{font-family:Arial,serif;font-size:10.0px;color:rgb(94,94,94);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_063{font-family:Arial,serif;font-size:10.0px;color:rgb(94,94,94);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_064{font-family:Arial,serif;font-size:10.6px;color:rgb(94,94,94);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_064{font-family:Arial,serif;font-size:10.6px;color:rgb(94,94,94);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_067{font-family:Courier New,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_067{font-family:Courier New,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_069{font-family:Arial,serif;font-size:10.6px;color:rgb(94,94,94);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_069{font-family:Arial,serif;font-size:10.6px;color:rgb(94,94,94);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_072{font-family:"Book Antiqua Bold",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_072{font-family:"Book Antiqua Bold",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_074{font-family:"Book Antiqua",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_074{font-family:"Book Antiqua",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_106{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_106{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_077{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_077{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_107{font-family:"Book Antiqua Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_107{font-family:"Book Antiqua Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_108{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_108{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background01.jpg" width=595 height=841></div>
+<div style="position:absolute;left:173.78px;top:69.40px" class="cls_083"><span class="cls_083">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:74.66px;top:103.98px" class="cls_009"><span class="cls_009">If you are using Laptop/Desktop computer :- </span><A HREF="https://youtu.be/ibfZAeY1Xoo">use Google Chrome Browser(click to know more).</A> </span></div>
+<div style="position:absolute;left:74.66px;top:128.46px" class="cls_009"><span class="cls_009">If you are using Mobile Phone :- </span><A HREF="https://youtu.be/ZJ-T2WpsqJc">Download Avaya Spaces from Google Play Store (click to know</A> </span></div>
+<div style="position:absolute;left:74.66px;top:142.98px" class="cls_084"><span class="cls_084"> </span><A HREF="https://youtu.be/ZJ-T2WpsqJc">more).</A> </div>
+<div style="position:absolute;left:198.17px;top:275.49px" class="cls_003"><span class="cls_003">IME TABLE FOR ONLINE CLASSES</span></div>
+<div style="position:absolute;left:265.97px;top:294.81px" class="cls_003"><span class="cls_003">CLASS VI</span></div>
+<div style="position:absolute;left:41.88px;top:314.01px" class="cls_004"><span class="cls_004">DAY</span></div>
+<div style="position:absolute;left:90.62px;top:314.01px" class="cls_004"><span class="cls_004">8.30-9.05AM</span></div>
+<div style="position:absolute;left:217.01px;top:314.01px" class="cls_004"><span class="cls_004">9.10-9.45AM</span></div>
+<div style="position:absolute;left:426.79px;top:314.01px" class="cls_004"><span class="cls_004">9.50-10.25AM</span></div>
+<div style="position:absolute;left:41.88px;top:333.33px" class="cls_003"><span class="cls_003">MON</span></div>
+<div style="position:absolute;left:116.42px;top:333.33px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.avayacloud.com/spaces/5ea1dfda639261599044625e">ENG(DOEL)</A> </div>
+<div style="position:absolute;left:258.65px;top:333.33px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea1933f1caba81fe7180ec8">COMP(JAYETA)</A> </div>
+<div style="position:absolute;left:418.63px;top:333.33px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea1ce8e95c08048644c2333">MATHS(BABBAN)</A> </div>
+<div style="position:absolute;left:41.88px;top:352.53px" class="cls_003"><span class="cls_003">TUE</span></div>
+<div style="position:absolute;left:107.90px;top:352.53px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea2475453c826397425006a">HINDI(ANJALI)</A> </div>
+<div style="position:absolute;left:252.53px;top:352.53px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea2548253c82610c2250e4d">SCIENCE(FAUZIA)</A> </div>
+<div style="position:absolute;left:426.55px;top:352.53px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.avayacloud.com/spaces/5ea2740fc5a358350d86171b">S.SC(ANCHAN)</A> </div>
+<div style="position:absolute;left:41.88px;top:371.73px" class="cls_003"><span class="cls_003">WED</span></div>
+<div style="position:absolute;left:116.42px;top:371.73px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.avayacloud.com/spaces/5ea1dfda639261599044625e">ENG(DOEL)</A> </div>
+<div style="position:absolute;left:255.41px;top:371.73px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea24ee153c82638fd250897">SANSKRIT(SONI)</A> </div>
+<div style="position:absolute;left:418.63px;top:371.73px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea1ce8e95c08048644c2333">MATHS(BABBAN)</A> </div>
+<div style="position:absolute;left:41.88px;top:391.05px" class="cls_003"><span class="cls_003">THU</span></div>
+<div style="position:absolute;left:107.90px;top:391.05px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea2475453c826397425006a">HINDI(ANJALI)</A> </div>
+<div style="position:absolute;left:252.53px;top:391.05px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea2548253c82610c2250e4d">SCIENCE(FAUZIA)</A> </div>
+<div style="position:absolute;left:426.55px;top:391.05px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.avayacloud.com/spaces/5ea2740fc5a358350d86171b">S.SC(ANCHAN)</A> </div>
+<div style="position:absolute;left:41.88px;top:410.25px" class="cls_003"><span class="cls_003">FRI</span></div>
+<div style="position:absolute;left:116.42px;top:410.25px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.avayacloud.com/spaces/5ea1dfda639261599044625e">ENG(DOEL)</A> </div>
+<div style="position:absolute;left:243.53px;top:410.25px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea1933f1caba81fe7180ec8">COMPUTER(JAYETA)</A> </div>
+<div style="position:absolute;left:418.63px;top:410.25px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea1ce8e95c08048644c2333">MATHS(BABBAN)</A> </div>
+<div style="position:absolute;left:41.88px;top:429.57px" class="cls_003"><span class="cls_003">SAT</span></div>
+<div style="position:absolute;left:107.90px;top:429.57px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea2475453c826397425006a">HINDI(ANJALI)</A> </div>
+<div style="position:absolute;left:252.53px;top:429.57px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.zang.io/spaces/5ea2548253c82610c2250e4d">SCIENCE(FAUZIA)</A> </div>
+<div style="position:absolute;left:426.55px;top:429.57px" class="cls_005"><span class="cls_005"> </span><A HREF="https://spaces.avayacloud.com/spaces/5ea2740fc5a358350d86171b">S.SC(ANCHAN)</A> </div>
+<div style="position:absolute;left:147.14px;top:493.07px" class="cls_006"><span class="cls_006">NOTE:- Any query related to link and</span></div>
+<div style="position:absolute;left:147.14px;top:512.75px" class="cls_006"><span class="cls_006">content, text us on the given e-mail-</span></div>
+<div style="position:absolute;left:178.70px;top:542.51px" class="cls_085"><span class="cls_085"> </span><A HREF="mailto:fpsprincipal2020@gmail.com">fpsprincipal2020@gmail.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:851px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background02.jpg" width=595 height=841></div>
+<div style="position:absolute;left:84.38px;top:37.12px" class="cls_086"><span class="cls_086">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:36.00px;top:96.66px" class="cls_012"><span class="cls_012">Grade- VI</span></div>
+<div style="position:absolute;left:360.07px;top:96.66px" class="cls_012"><span class="cls_012">Module-VI</span></div>
+<div style="position:absolute;left:36.00px;top:143.82px" class="cls_087"><span class="cls_087">SUBJECT</span><span class="cls_012">-</span><span class="cls_013">English</span></div>
+<div style="position:absolute;left:36.00px;top:172.98px" class="cls_087"><span class="cls_087">CHAPTER NAME</span><span class="cls_007">-</span><span class="cls_014">Six and Out</span></div>
+<div style="position:absolute;left:36.00px;top:204.06px" class="cls_088"><span class="cls_088">TOPIC</span><span class="cls_015">:MCB Lesson</span><span class="cls_014"> 2</span></div>
+<div style="position:absolute;left:36.00px;top:235.62px" class="cls_012"><span class="cls_012">Link-</span><span class="cls_089">https://youtu.be/rbQbGkMa0XE</span></div>
+<div style="position:absolute;left:36.00px;top:299.73px" class="cls_007"><span class="cls_007">Please find herewith the web links of the chapters along with the written assignment we wish you</span></div>
+<div style="position:absolute;left:36.00px;top:316.89px" class="cls_007"><span class="cls_007">to cover up by the end of this break. The entire assignment will form a part of your subject</span></div>
+<div style="position:absolute;left:36.00px;top:334.05px" class="cls_007"><span class="cls_007">enrichment assessment and needs to be done in home-work copy. This assignment will be a part</span></div>
+<div style="position:absolute;left:36.00px;top:351.09px" class="cls_007"><span class="cls_007">of  subject enrichment. In case of any clarification please feel free to get in touch with your subject</span></div>
+<div style="position:absolute;left:36.00px;top:368.25px" class="cls_007"><span class="cls_007">teachers, once the school reopens or else mail it to principal@firayalalpublicschool.com</span></div>
+<div style="position:absolute;left:36.00px;top:402.45px" class="cls_087"><span class="cls_087">TUTORIALS:-</span></div>
+<div style="position:absolute;left:239.57px;top:445.67px" class="cls_090"><span class="cls_090">SIX AND OUT</span></div>
+<div style="position:absolute;left:273.53px;top:523.79px" class="cls_019"><span class="cls_019">POEM</span></div>
+<div style="position:absolute;left:199.73px;top:560.39px" class="cls_020"><span class="cls_020">The pitch was only smooth in parts;</span></div>
+<div style="position:absolute;left:234.17px;top:588.95px" class="cls_020"><span class="cls_020">It sank at either crease,</span></div>
+<div style="position:absolute;left:205.13px;top:617.39px" class="cls_020"><span class="cls_020">And motor vans and bakers’ carts</span></div>
+<div style="position:absolute;left:217.61px;top:645.86px" class="cls_020"><span class="cls_020">At times disturbed the peace.</span></div>
+<div style="position:absolute;left:211.85px;top:702.86px" class="cls_020"><span class="cls_020">The bowlers found it hard to hit</span></div>
+<div style="position:absolute;left:217.01px;top:731.30px" class="cls_020"><span class="cls_020">The lamp post’s slender stem</span></div>
+<div style="position:absolute;left:218.21px;top:759.74px" class="cls_020"><span class="cls_020">The broader wicket opposite,</span></div>
+<div style="position:absolute;left:234.17px;top:788.30px" class="cls_020"><span class="cls_020">Was cleared at 6:00 pm</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1702px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background03.jpg" width=595 height=841></div>
+<div style="position:absolute;left:206.45px;top:48.04px" class="cls_020"><span class="cls_020">It was a keen, determined school,</span></div>
+<div style="position:absolute;left:239.33px;top:76.60px" class="cls_020"><span class="cls_020">Unorthodox and free;</span></div>
+<div style="position:absolute;left:190.22px;top:105.06px" class="cls_020"><span class="cls_020">Harsh circumstances oft made the rule,</span></div>
+<div style="position:absolute;left:246.29px;top:133.50px" class="cls_020"><span class="cls_020">And not the M.C.C.</span></div>
+<div style="position:absolute;left:214.37px;top:190.50px" class="cls_020"><span class="cls_020">The scorer, seated by the well,</span></div>
+<div style="position:absolute;left:240.53px;top:218.94px" class="cls_020"><span class="cls_020">Kept up a fire of talk;</span></div>
+<div style="position:absolute;left:198.41px;top:247.38px" class="cls_020"><span class="cls_020">He was both umpires, crowd and all,</span></div>
+<div style="position:absolute;left:233.81px;top:275.97px" class="cls_020"><span class="cls_020">And plied a busy chalk.</span></div>
+<div style="position:absolute;left:202.85px;top:332.85px" class="cls_020"><span class="cls_020">So, standing musing on the scene,</span></div>
+<div style="position:absolute;left:233.93px;top:361.29px" class="cls_020"><span class="cls_020">I let the moments pass;</span></div>
+<div style="position:absolute;left:203.57px;top:389.85px" class="cls_020"><span class="cls_020">How well he drove it to the screen.</span></div>
+<div style="position:absolute;left:218.93px;top:418.29px" class="cls_020"><span class="cls_020">And then- the crash of glass.</span></div>
+<div style="position:absolute;left:206.09px;top:475.31px" class="cls_020"><span class="cls_020">I watched the players as they ran,</span></div>
+<div style="position:absolute;left:215.09px;top:503.75px" class="cls_020"><span class="cls_020">And heard, while yet they fled,</span></div>
+<div style="position:absolute;left:209.93px;top:532.19px" class="cls_020"><span class="cls_020">The loud voice of an angry man,</span></div>
+<div style="position:absolute;left:230.09px;top:560.63px" class="cls_020"><span class="cls_020">The law’s majestic tread.</span></div>
+<div style="position:absolute;left:474.10px;top:617.51px" class="cls_091"><span class="cls_091">GD Martineau</span></div>
+<div style="position:absolute;left:36.00px;top:648.62px" class="cls_021"><span class="cls_021">About the author:</span></div>
+<div style="position:absolute;left:36.00px;top:710.90px" class="cls_022"><span class="cls_022">GD Martineau (1897-1976) was an English cricket writer. He wrote about different aspects of the</span></div>
+<div style="position:absolute;left:36.00px;top:743.06px" class="cls_022"><span class="cls_022">game of cricket. His notable works include Bat, Ball, Wicket and All, They made cricket, the</span></div>
+<div style="position:absolute;left:36.00px;top:775.22px" class="cls_022"><span class="cls_022">valiant Stumper and The Field Is Full of Shades. He died in England at the age of 79.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:2553px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background04.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:47.92px" class="cls_021"><span class="cls_021">Summary  of the poem:</span></div>
+<div style="position:absolute;left:36.00px;top:79.14px" class="cls_023"><span class="cls_023">Physicalgames have always been fascination of boys and girls everywhere in the world. Although</span></div>
+<div style="position:absolute;left:36.00px;top:97.62px" class="cls_023"><span class="cls_023">sports and physical games have been reduced to one’s living room due to scarcity of playground in</span></div>
+<div style="position:absolute;left:36.00px;top:116.10px" class="cls_023"><span class="cls_023">cities, Children in villages are luckier because they have space to play and enjoy. The poem presents</span></div>
+<div style="position:absolute;left:36.00px;top:144.54px" class="cls_023"><span class="cls_023">a similar situation where children have been forced to play cricket outside the park because it closed</span></div>
+<div style="position:absolute;left:36.00px;top:163.02px" class="cls_023"><span class="cls_023">down at 6 and they were Out! The children’s determination shows that space is not a limiting factor for</span></div>
+<div style="position:absolute;left:36.00px;top:181.50px" class="cls_023"><span class="cls_023">sports. All we need is determination and a keen interest to play. In the poem the children, were playing</span></div>
+<div style="position:absolute;left:36.00px;top:199.98px" class="cls_023"><span class="cls_023">on the road, are disturbed by the motor vans and the bakers’ cart. The road was narrow; they had to</span></div>
+<div style="position:absolute;left:36.00px;top:218.46px" class="cls_023"><span class="cls_023">use the base of lamp post as wicket and the wall of the well as score board. The wicket keeper scorer</span></div>
+<div style="position:absolute;left:36.00px;top:236.94px" class="cls_023"><span class="cls_023">is both, the umpire and the crowd. Yet they are determined to play out there and not bound by the</span></div>
+<div style="position:absolute;left:36.00px;top:255.42px" class="cls_023"><span class="cls_023">rules of M.C.C. (Marylebone Cricket Club).</span></div>
+<div style="position:absolute;left:36.00px;top:283.89px" class="cls_023"><span class="cls_023">The bowler hits the ball so hard that it goes and strikes the window pane or the screen of any vehicle</span></div>
+<div style="position:absolute;left:36.00px;top:302.37px" class="cls_023"><span class="cls_023">and broke its glass. The man of the house or may be the vehicle owner shouted and the children fled</span></div>
+<div style="position:absolute;left:36.00px;top:320.97px" class="cls_023"><span class="cls_023">from there.</span></div>
+<div style="position:absolute;left:36.00px;top:349.29px" class="cls_024"><span class="cls_024">Word meanings:</span></div>
+<div style="position:absolute;left:36.00px;top:380.49px" class="cls_020"><span class="cls_020">1</span><span class="cls_025">. Pitch-</span><span class="cls_020">an area painted with lines for playing particular sports, like cricket, football</span></div>
+<div style="position:absolute;left:36.00px;top:408.81px" class="cls_020"><span class="cls_020">2.</span><span class="cls_025"> Crease-</span><span class="cls_020">the white line on the ground near each wicket where the batsman and the bowler</span></div>
+<div style="position:absolute;left:36.00px;top:427.41px" class="cls_020"><span class="cls_020">stand</span></div>
+<div style="position:absolute;left:36.00px;top:455.99px" class="cls_020"><span class="cls_020">3. </span><span class="cls_025">school</span><span class="cls_020">- (here) group</span></div>
+<div style="position:absolute;left:36.00px;top:484.43px" class="cls_020"><span class="cls_020">4. </span><span class="cls_025">Unorthodox</span><span class="cls_020">- different from usual</span></div>
+<div style="position:absolute;left:36.00px;top:512.87px" class="cls_020"><span class="cls_020">5. </span><span class="cls_025">Fire of talk</span><span class="cls_020">-(here) commentary</span></div>
+<div style="position:absolute;left:36.00px;top:541.43px" class="cls_020"><span class="cls_020">6. </span><span class="cls_025">Plied</span><span class="cls_020">- used skilfully</span></div>
+<div style="position:absolute;left:36.00px;top:569.87px" class="cls_020"><span class="cls_020">7. </span><span class="cls_025">Musing</span><span class="cls_020">- thinking</span></div>
+<div style="position:absolute;left:36.00px;top:598.31px" class="cls_020"><span class="cls_020">8.</span><span class="cls_025"> Law’s majesty</span><span class="cls_020">- policeman</span></div>
+<div style="position:absolute;left:36.00px;top:626.63px" class="cls_092"><span class="cls_092">Analysis of the poem</span><span class="cls_026">:</span></div>
+<div style="position:absolute;left:36.00px;top:657.86px" class="cls_021"><span class="cls_021">Opening stanza:</span></div>
+<div style="position:absolute;left:199.73px;top:689.06px" class="cls_025"><span class="cls_025">The pitch was only smooth in parts;</span></div>
+<div style="position:absolute;left:234.17px;top:715.10px" class="cls_025"><span class="cls_025">It sank at either crease,</span></div>
+<div style="position:absolute;left:205.13px;top:741.14px" class="cls_025"><span class="cls_025">And motor vans and bakers’ carts</span></div>
+<div style="position:absolute;left:217.61px;top:767.30px" class="cls_025"><span class="cls_025">At times disturbed the peace</span><span class="cls_020">.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:3404px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background05.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:45.52px" class="cls_021"><span class="cls_021">Paraphrase:</span></div>
+<div style="position:absolute;left:36.00px;top:76.60px" class="cls_023"><span class="cls_023">Theywere playing cricket in the street. The pitch was not entirely smooth. Both the pitches (where the</span></div>
+<div style="position:absolute;left:36.00px;top:95.10px" class="cls_023"><span class="cls_023">ball bounces when bowled) on both sides. Except the motor vans and bakers’ carts that sold bakery,</span></div>
+<div style="position:absolute;left:36.00px;top:113.70px" class="cls_023"><span class="cls_023">the game was altogether smooth.</span></div>
+<div style="position:absolute;left:36.00px;top:142.14px" class="cls_021"><span class="cls_021">Stanza-2</span></div>
+<div style="position:absolute;left:211.85px;top:173.34px" class="cls_025"><span class="cls_025">The bowlers found it hard to hit</span></div>
+<div style="position:absolute;left:217.01px;top:199.38px" class="cls_025"><span class="cls_025">The lamp post’s slender stem</span></div>
+<div style="position:absolute;left:218.21px;top:225.42px" class="cls_025"><span class="cls_025">The broader wicket opposite,</span></div>
+<div style="position:absolute;left:234.17px;top:251.58px" class="cls_025"><span class="cls_025">Was cleared at 6:00 pm</span></div>
+<div style="position:absolute;left:36.00px;top:277.53px" class="cls_021"><span class="cls_021">Paraphrase:</span></div>
+<div style="position:absolute;left:36.00px;top:308.61px" class="cls_023"><span class="cls_023">It was hard for the bowlers to hit the wicket because it was not really a wicket. They used the slender</span></div>
+<div style="position:absolute;left:36.00px;top:327.09px" class="cls_023"><span class="cls_023">base of the lamp post as a wicket and therefore it was hard to hit the wicket as it was not broad</span></div>
+<div style="position:absolute;left:36.00px;top:345.57px" class="cls_023"><span class="cls_023">enough. The broader wicket suggests that the road was opposite a park where there was a typical</span></div>
+<div style="position:absolute;left:36.00px;top:364.17px" class="cls_023"><span class="cls_023">cricket pitch with broader wicket.</span></div>
+<div style="position:absolute;left:36.00px;top:392.49px" class="cls_021"><span class="cls_021">Stanza-3</span></div>
+<div style="position:absolute;left:206.45px;top:423.69px" class="cls_025"><span class="cls_025">It was a keen, determined school,</span></div>
+<div style="position:absolute;left:239.33px;top:449.87px" class="cls_025"><span class="cls_025">Unorthodox and free;</span></div>
+<div style="position:absolute;left:190.22px;top:475.91px" class="cls_025"><span class="cls_025">Harsh circumstances oft made the rule,</span></div>
+<div style="position:absolute;left:246.29px;top:501.95px" class="cls_025"><span class="cls_025">And not the M.C.C.</span></div>
+<div style="position:absolute;left:36.00px;top:527.87px" class="cls_021"><span class="cls_021">Paraphrase:</span></div>
+<div style="position:absolute;left:36.00px;top:559.07px" class="cls_023"><span class="cls_023">The children were deeply interested in cricket. They did not follow the rules of cricket. They were free</span></div>
+<div style="position:absolute;left:36.00px;top:577.43px" class="cls_023"><span class="cls_023">thinkers and not bound by any rules and regulations needed to play the game. The harsh</span></div>
+<div style="position:absolute;left:36.00px;top:595.91px" class="cls_023"><span class="cls_023">circumstances were the tough and disturbing situations under which they were playing. The M.C.C</span></div>
+<div style="position:absolute;left:36.00px;top:614.39px" class="cls_023"><span class="cls_023">refers to the Marylebone Cricket Club, which was founded in 1787 and was the governing body of</span></div>
+<div style="position:absolute;left:36.00px;top:632.99px" class="cls_023"><span class="cls_023">cricket in England., Scotland and Wales.</span></div>
+<div style="position:absolute;left:36.00px;top:661.46px" class="cls_021"><span class="cls_021">Stanza-4</span></div>
+<div style="position:absolute;left:214.37px;top:692.66px" class="cls_025"><span class="cls_025">The scorer, seated by the well,</span></div>
+<div style="position:absolute;left:240.53px;top:718.70px" class="cls_025"><span class="cls_025">Kept up a fire of talk;</span></div>
+<div style="position:absolute;left:198.41px;top:744.74px" class="cls_025"><span class="cls_025">He was both umpires, crowd and all,</span></div>
+<div style="position:absolute;left:233.81px;top:770.90px" class="cls_025"><span class="cls_025">And plied a busy chalk.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:4255px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background06.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:45.52px" class="cls_021"><span class="cls_021">Paraphrase:</span></div>
+<div style="position:absolute;left:36.00px;top:76.60px" class="cls_023"><span class="cls_023">The score was written by a boy who sat by the well. He was an all-rounder-umpire, commentator and</span></div>
+<div style="position:absolute;left:36.00px;top:95.10px" class="cls_023"><span class="cls_023">crowd. He kept on giving a commentary of the game. With the chalk in his hand, he kept on writing the</span></div>
+<div style="position:absolute;left:36.00px;top:113.70px" class="cls_023"><span class="cls_023">score.</span></div>
+<div style="position:absolute;left:36.00px;top:142.14px" class="cls_021"><span class="cls_021">Stanza-5</span></div>
+<div style="position:absolute;left:202.85px;top:173.34px" class="cls_025"><span class="cls_025">So, standing musing on the scene,</span></div>
+<div style="position:absolute;left:233.93px;top:199.38px" class="cls_025"><span class="cls_025">I let the moments pass;</span></div>
+<div style="position:absolute;left:203.57px;top:225.42px" class="cls_025"><span class="cls_025">How well he drove it to the screen.</span></div>
+<div style="position:absolute;left:218.93px;top:251.58px" class="cls_025"><span class="cls_025">And then- the crash of glass.</span></div>
+<div style="position:absolute;left:36.00px;top:277.53px" class="cls_021"><span class="cls_021">Paraphrase:</span></div>
+<div style="position:absolute;left:36.00px;top:308.61px" class="cls_023"><span class="cls_023">The narrator is ‘I’ in the stanza. The narrator was watching and thinking about the boys who were</span></div>
+<div style="position:absolute;left:36.00px;top:327.09px" class="cls_023"><span class="cls_023">playing the game of cricket. One of the batsman hit the ball very hard and the ball flew to a nearby</span></div>
+<div style="position:absolute;left:36.00px;top:345.69px" class="cls_023"><span class="cls_023">window and smashed the glass.</span></div>
+<div style="position:absolute;left:36.00px;top:399.93px" class="cls_021"><span class="cls_021">Stanza-6</span></div>
+<div style="position:absolute;left:206.09px;top:431.13px" class="cls_025"><span class="cls_025">I watched the players as they ran,</span></div>
+<div style="position:absolute;left:215.09px;top:457.19px" class="cls_025"><span class="cls_025">And heard, while yet they fled,</span></div>
+<div style="position:absolute;left:209.93px;top:483.23px" class="cls_025"><span class="cls_025">The loud voice of an angry man,</span></div>
+<div style="position:absolute;left:230.09px;top:509.27px" class="cls_025"><span class="cls_025">The law’s majestic tread.</span></div>
+<div style="position:absolute;left:36.00px;top:535.31px" class="cls_021"><span class="cls_021">Paraphrase:</span></div>
+<div style="position:absolute;left:36.00px;top:566.39px" class="cls_023"><span class="cls_023">The players ran away because one of them drove the ball into the nearby house and broke its window.</span></div>
+<div style="position:absolute;left:36.00px;top:584.87px" class="cls_023"><span class="cls_023">It can also refer to any vehicles front screen as they were playing on a busy road and the vehicles</span></div>
+<div style="position:absolute;left:36.00px;top:603.35px" class="cls_023"><span class="cls_023">were moving. The narrator heard the loud shout of the owner of the house or a vehicle whose screen</span></div>
+<div style="position:absolute;left:36.00px;top:621.83px" class="cls_023"><span class="cls_023">or the windowpane had broken. </span><span class="cls_028">Law’s majestic tread</span><span class="cls_023">` refers to the policeman and the fear that caught</span></div>
+<div style="position:absolute;left:36.00px;top:640.34px" class="cls_023"><span class="cls_023">the children after breaking the glass or screen, and their running away from the road because of the</span></div>
+<div style="position:absolute;left:36.00px;top:658.94px" class="cls_023"><span class="cls_023">fear of being caught. Law is majestic and violating the law evokes fear in the minds of people.</span></div>
+<div style="position:absolute;left:36.00px;top:687.26px" class="cls_091"><span class="cls_091">Question and Answers from the text:</span></div>
+<div style="position:absolute;left:36.00px;top:718.46px" class="cls_020"><span class="cls_020">Q1. How has the pitch been described by the speaker?</span></div>
+<div style="position:absolute;left:36.00px;top:746.78px" class="cls_028"><span class="cls_028">Ans: </span><span class="cls_023">According to the speaker the pitch was not entirely smooth. It was uneven as it was a street and</span></div>
+<div style="position:absolute;left:36.00px;top:765.38px" class="cls_023"><span class="cls_023">not a regular cricket pitch, and it sank at both the crease or the surface was slightly lower than the rest.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5106px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background07.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:48.04px" class="cls_020"><span class="cls_020">Q2. What disturbed the peace?</span></div>
+<div style="position:absolute;left:36.00px;top:76.48px" class="cls_028"><span class="cls_028">Ans: </span><span class="cls_023">The motor vans and bakers’ carts that sold bakery disturbed the peace or they were interrupting</span></div>
+<div style="position:absolute;left:36.00px;top:95.10px" class="cls_023"><span class="cls_023">the natural flow of the game.</span></div>
+<div style="position:absolute;left:36.00px;top:123.54px" class="cls_020"><span class="cls_020">Q3. What was used as the wicket and why did the bowlers find it hard to hit it?</span></div>
+<div style="position:absolute;left:36.00px;top:151.86px" class="cls_028"><span class="cls_028">Ans</span><span class="cls_023">: It was hard for the bowlers to hit the wicket because it was not really a regular wicket. They used</span></div>
+<div style="position:absolute;left:36.00px;top:170.34px" class="cls_023"><span class="cls_023">the slender base of the lamp post as a wicket and therefore it was hard to hit the wicket as it was not</span></div>
+<div style="position:absolute;left:36.00px;top:188.94px" class="cls_023"><span class="cls_023">broad enough.</span></div>
+<div style="position:absolute;left:36.00px;top:217.38px" class="cls_020"><span class="cls_020">Q4. Where did the scorer sit and what did he do?</span></div>
+<div style="position:absolute;left:36.00px;top:245.82px" class="cls_028"><span class="cls_028">Ans</span><span class="cls_023">. The scorer was seated beside the well.  He was playing the role of a commentator, an umpire and</span></div>
+<div style="position:absolute;left:36.00px;top:264.45px" class="cls_023"><span class="cls_023">the crowd. He was busy maintaining the scoreboard with the application of a chalk.</span></div>
+<div style="position:absolute;left:36.00px;top:292.89px" class="cls_020"><span class="cls_020">Q5. Where the speaker was and what was he doing?</span></div>
+<div style="position:absolute;left:36.00px;top:321.21px" class="cls_028"><span class="cls_028">Ans: </span><span class="cls_023">The narrator was watching the scene and thinking about the boys who were playing the game of</span></div>
+<div style="position:absolute;left:36.00px;top:339.81px" class="cls_023"><span class="cls_023">cricket on the busy street.</span></div>
+<div style="position:absolute;left:36.00px;top:368.13px" class="cls_021"><span class="cls_021">Think and answer:</span></div>
+<div style="position:absolute;left:36.00px;top:399.45px" class="cls_025"><span class="cls_025">Q1. </span><span class="cls_020">Explain the words ‘unorthodox and free’.</span></div>
+<div style="position:absolute;left:36.00px;top:433.53px" class="cls_025"><span class="cls_025">Q2. </span><span class="cls_020">What do the words ‘laws of majestic tread’ mean?</span></div>
+<div style="position:absolute;left:36.00px;top:467.63px" class="cls_025"><span class="cls_025">Q3</span><span class="cls_020">. Is the title of the poem ‘Six and out’ justifiable? Give reasons for your answer?</span></div>
+<div style="position:absolute;left:36.00px;top:502.07px" class="cls_087"><span class="cls_087">LEARNING OUTCOME:</span></div>
+<div style="position:absolute;left:72.02px;top:532.07px" class="cls_031"><span class="cls_031">After studying this topic:</span></div>
+<div style="position:absolute;left:36.00px;top:560.75px" class="cls_020"><span class="cls_020">1. The students will get the opportunity to enrich their vocabulary.</span></div>
+<div style="position:absolute;left:36.00px;top:594.83px" class="cls_020"><span class="cls_020">2. They will be exposed to the beauty of comprehending and understanding poetry.</span></div>
+<div style="position:absolute;left:246.29px;top:663.26px" class="cls_093"><span class="cls_093">THANK YOU</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5957px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background08.jpg" width=595 height=841></div>
+<div style="position:absolute;left:84.38px;top:37.12px" class="cls_086"><span class="cls_086">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:36.00px;top:96.66px" class="cls_012"><span class="cls_012">Grade- VI</span></div>
+<div style="position:absolute;left:393.07px;top:96.66px" class="cls_012"><span class="cls_012">Module- 6</span></div>
+<div style="position:absolute;left:36.00px;top:117.30px" class="cls_087"><span class="cls_087">SUBJECT</span><span class="cls_012">-</span><span class="cls_033"> </span><span class="cls_012">HINDI</span></div>
+<div style="position:absolute;left:36.00px;top:145.02px" class="cls_087"><span class="cls_087">CHAPTER NAME</span><span class="cls_012">- </span><span class="cls_034">नादान</span><span class="cls_033"> </span><span class="cls_034">दो</span><span class="cls_035">è</span><span class="cls_034">त</span></div>
+<div style="position:absolute;left:36.00px;top:177.06px" class="cls_088"><span class="cls_088">TOPIC:  </span><span class="cls_036">कहानी</span></div>
+<div style="position:absolute;left:36.00px;top:207.42px" class="cls_012"><span class="cls_012">Link-    </span><A HREF="https://www.extramarks.com/">https://www.extramarks.com/</A> </span></div>
+<div style="position:absolute;left:58.56px;top:234.06px" class="cls_094"><span class="cls_094"> </span><A HREF="http://ncert.nic.in/ebooks.html">http://ncert.nic.in/ebooks.html</A> </div>
+<div style="position:absolute;left:70.94px;top:260.82px" class="cls_089"><span class="cls_089"> </span><A HREF="https://youtu.be/zoZpYqXEObg">https://youtu.be/zoZpYqXEObg</A> </div>
+<div style="position:absolute;left:36.00px;top:323.49px" class="cls_007"><span class="cls_007">Please find herewith the web links of the chapters along with the written assignment we wish you</span></div>
+<div style="position:absolute;left:36.00px;top:340.65px" class="cls_007"><span class="cls_007">to cover up by the end of this break. The entire assignment will form a part of your subject</span></div>
+<div style="position:absolute;left:36.00px;top:357.81px" class="cls_007"><span class="cls_007">enrichment assessment and needs to be done in home-work copy. This assignment will be a part</span></div>
+<div style="position:absolute;left:36.00px;top:374.97px" class="cls_007"><span class="cls_007">of  subject enrichment. In case of any clarification please feel free to get in touch with your subject</span></div>
+<div style="position:absolute;left:36.00px;top:392.13px" class="cls_007"><span class="cls_007">teachers, once the school reopens or else mail it to principal@firayalalpublicschool.com</span></div>
+<div style="position:absolute;left:36.00px;top:426.33px" class="cls_087"><span class="cls_087">TUTORIALS:-</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:6808px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background09.jpg" width=595 height=841></div>
+<div style="position:absolute;left:72.02px;top:26.44px" class="cls_095"><span class="cls_095">साराश</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:7659px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background10.jpg" width=595 height=841></div>
+<div style="position:absolute;left:72.02px;top:24.64px" class="cls_096"><span class="cls_096">कठ</span><span class="cls_097"></span><span class="cls_096">न</span><span class="cls_098"> </span><span class="cls_096">शबदो</span><span class="cls_098"> </span><span class="cls_096">क</span><span class="cls_098"> </span><span class="cls_096">अ</span><span class="cls_099">  :</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:8510px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background11.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:46.36px" class="cls_100"><span class="cls_100">पशन</span><span class="cls_101">/</span><span class="cls_100">उतय</span><span class="cls_101">:</span></div>
+<div style="position:absolute;left:36.00px;top:90.66px" class="cls_048"><span class="cls_048">1.</span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">फाय</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">भन</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">ककस</span><span class="cls_050"> </span><span class="cls_049">तयह</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">सवार</span><span class="cls_050"> </span><span class="cls_049">उठत</span><span class="cls_050"> </span><span class="cls_049">थ</span><span class="cls_050">? </span><span class="cls_049">व</span></div>
+<div style="position:absolute;left:36.00px;top:121.62px" class="cls_049"><span class="cls_049">आऩस</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050">ȣ </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">सवार</span><span class="cls_050"> </span><span class="cls_049">जवाफ</span><span class="cls_050"> </span><span class="cls_049">कयक</span><span class="cls_050"> </span><span class="cls_049">अऩन</span><span class="cls_050"> Ǒ</span><span class="cls_049">दर</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">तसलर</span><span class="cls_050">ȣ </span><span class="cls_049">कमो</span><span class="cls_050"> </span><span class="cls_049">द</span><span class="cls_050"> Ǒ</span><span class="cls_049">दमा</span><span class="cls_050"> </span><span class="cls_049">कयत</span><span class="cls_050"> </span><span class="cls_049">थ</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:36.00px;top:162.54px" class="cls_049"><span class="cls_049">उ</span><span class="cls_048">.</span><span class="cls_049">फचचो</span><span class="cls_050"> </span><span class="cls_049">का</span><span class="cls_050"> </span><span class="cls_049">भन</span><span class="cls_050"> </span><span class="cls_049">जजऻासाओ</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">बया</span><span class="cls_050"> </span><span class="cls_049">होता</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050"> </span><span class="cls_049">उनहोन</span><span class="cls_050"> </span><span class="cls_049">ऩहर</span><span class="cls_050"> </span><span class="cls_049">कबी</span><span class="cls_050"> </span><span class="cls_049">अड</span><span class="cls_050"> </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">दख</span><span class="cls_050"> </span><span class="cls_049">थ</span></div>
+<div style="position:absolute;left:36.00px;top:193.38px" class="cls_049"><span class="cls_049">उनक</span><span class="cls_050"> </span><span class="cls_049">घय</span><span class="cls_050"> </span><span class="cls_049">वारो</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">बी</span><span class="cls_050"> </span><span class="cls_049">उनको</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">फाय</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">कोई</span><span class="cls_050"> </span><span class="cls_049">जानकाय</span><span class="cls_050">ȣ </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">द</span><span class="cls_050">ȣ </span><span class="cls_049">थी</span><span class="cls_050"> </span><span class="cls_049">उनको</span></div>
+<div style="position:absolute;left:36.00px;top:224.34px" class="cls_049"><span class="cls_049">ऩता</span><span class="cls_050"> </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">था</span><span class="cls_050"> </span><span class="cls_049">कक</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">का</span><span class="cls_050"> </span><span class="cls_049">आकाय</span><span class="cls_050"> </span><span class="cls_049">ककतना</span><span class="cls_050"> </span><span class="cls_049">फडा</span><span class="cls_050"> </span><span class="cls_049">होता</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050"> </span><span class="cls_049">अड</span><span class="cls_050"> </span><span class="cls_049">ककस</span><span class="cls_050"> </span><span class="cls_049">यग</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">होत</span><span class="cls_050"> </span><span class="cls_049">ह</span></div>
+<div style="position:absolute;left:36.00px;top:255.30px" class="cls_049"><span class="cls_049">उनभ</span><span class="cls_050"> </span><span class="cls_049">फचच</span><span class="cls_050"> </span><span class="cls_049">कस</span><span class="cls_050"> </span><span class="cls_049">ऩदा</span><span class="cls_050"> </span><span class="cls_049">होत</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050"> </span><span class="cls_049">कपय</span><span class="cls_050"> </span><span class="cls_049">कमा</span><span class="cls_050"> </span><span class="cls_049">खात</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050"> </span><span class="cls_049">उनका</span><span class="cls_050"> </span><span class="cls_049">घोसरा</span><span class="cls_050"> </span><span class="cls_049">कसा</span><span class="cls_050"> </span><span class="cls_049">होता</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:36.00px;top:296.13px" class="cls_049"><span class="cls_049">उनक</span><span class="cls_050"> </span><span class="cls_049">सवारो</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">जवाफ</span><span class="cls_050"> </span><span class="cls_049">दन</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">लरए</span><span class="cls_050"> </span><span class="cls_049">अ</span><span class="cls_050">à</span><span class="cls_049">भा</span><span class="cls_050"> </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">फाफजी</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">ऩास</span><span class="cls_050"> </span><span class="cls_049">सभम</span><span class="cls_050"> </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">था</span></div>
+<div style="position:absolute;left:36.00px;top:327.09px" class="cls_049"><span class="cls_049">इसलरए</span><span class="cls_050"> </span><span class="cls_049">व</span><span class="cls_050"> </span><span class="cls_049">आऩस</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050">ȣ </span><span class="cls_049">सवार</span><span class="cls_050"> </span><span class="cls_049">जवाफ</span><span class="cls_050"> </span><span class="cls_049">कयक</span><span class="cls_050"> </span><span class="cls_049">अऩन</span><span class="cls_050"> Ǒ</span><span class="cls_049">दर</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">तसलर</span><span class="cls_050">ȣ </span><span class="cls_049">द</span><span class="cls_050"> Ǒ</span><span class="cls_049">दमा</span></div>
+<div style="position:absolute;left:36.00px;top:358.05px" class="cls_049"><span class="cls_049">कयत थ।</span></div>
+<div style="position:absolute;left:36.00px;top:398.85px" class="cls_048"><span class="cls_048">2.</span><span class="cls_050"> </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> ͬ</span><span class="cls_049">चथड</span><span class="cls_050"> </span><span class="cls_049">टोकय</span><span class="cls_050">ȣ </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">दाना</span><span class="cls_050"> </span><span class="cls_049">ऩानी</span><span class="cls_050"> </span><span class="cls_049">भगाकयकारनस</span><span class="cls_050"> </span><span class="cls_049">इस</span><span class="cls_050"> </span><span class="cls_049">ऩय</span><span class="cls_050"> </span><span class="cls_049">कमो</span></div>
+<div style="position:absolute;left:36.00px;top:429.81px" class="cls_049"><span class="cls_049">यख</span><span class="cls_050"> </span><span class="cls_049">थ</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:36.00px;top:470.75px" class="cls_049"><span class="cls_049">उ</span><span class="cls_048">.</span><span class="cls_050"> ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">अड</span><span class="cls_050"> </span><span class="cls_049">घोसर</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">कारनस</span><span class="cls_050"> </span><span class="cls_049">ऩय</span><span class="cls_050"> </span><span class="cls_049">कछ</span><span class="cls_050"> </span><span class="cls_049">रतनको</span><span class="cls_050"> </span><span class="cls_049">ऩय</span><span class="cls_050"> </span><span class="cls_049">यख</span><span class="cls_050"> </span><span class="cls_049">हए</span><span class="cls_050"> </span><span class="cls_049">थ।</span></div>
+<div style="position:absolute;left:36.00px;top:501.59px" class="cls_049"><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> ͬ</span><span class="cls_049">चथड</span><span class="cls_050"> </span><span class="cls_049">भगवा</span><span class="cls_050"> </span><span class="cls_049">कय</span><span class="cls_050"> </span><span class="cls_049">उनकी</span><span class="cls_050"> </span><span class="cls_049">गदद</span><span class="cls_050">ȣ </span><span class="cls_049">फनाई</span><span class="cls_050"> </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">नीच</span><span class="cls_050"> </span><span class="cls_049">यख</span></div>
+<div style="position:absolute;left:36.00px;top:532.55px" class="cls_049"><span class="cls_049">द</span><span class="cls_050">ȣ</span><span class="cls_049">।उसन</span><span class="cls_050"> </span><span class="cls_049">टोकय</span><span class="cls_050">ȣ </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">टहनी</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> Ǒ</span><span class="cls_049">टका</span><span class="cls_050"> </span><span class="cls_049">कय</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">ऊऩय</span><span class="cls_050"> </span><span class="cls_049">छामा</span><span class="cls_050"> </span><span class="cls_049">कयद</span><span class="cls_050">ȣ</span><span class="cls_049">।</span><span class="cls_050">ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">को</span></div>
+<div style="position:absolute;left:36.00px;top:563.51px" class="cls_049"><span class="cls_049">अऩन</span><span class="cls_050"> </span><span class="cls_049">फचचो</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">लरए</span><span class="cls_050"> </span><span class="cls_049">दाना</span><span class="cls_050"> </span><span class="cls_049">रान</span><span class="cls_050"> </span><span class="cls_049">दय</span><span class="cls_050"> </span><span class="cls_049">ना</span><span class="cls_050"> </span><span class="cls_049">जाना</span><span class="cls_050"> </span><span class="cls_049">ऩड</span><span class="cls_050"> </span><span class="cls_048">,</span><span class="cls_049">इसलरए</span><span class="cls_050"> </span><span class="cls_049">उसन</span><span class="cls_050"> </span><span class="cls_049">दाना</span><span class="cls_050">-</span><span class="cls_049">ऩानीभगा</span></div>
+<div style="position:absolute;left:36.00px;top:594.35px" class="cls_049"><span class="cls_049">कय</span><span class="cls_050"> </span><span class="cls_049">कारनस</span><span class="cls_050"> </span><span class="cls_049">ऩय</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050">ȣ </span><span class="cls_049">यख</span><span class="cls_050"> Ǒ</span><span class="cls_049">दमा।</span></div>
+<div style="position:absolute;left:36.00px;top:635.30px" class="cls_048"><span class="cls_048">3.</span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">यऺा</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">मा</span><span class="cls_050"> </span><span class="cls_049">नादानी</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:36.00px;top:676.22px" class="cls_049"><span class="cls_049">उ</span><span class="cls_048">. </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">अऩनी</span><span class="cls_050"> </span><span class="cls_049">ओय</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">तो</span><span class="cls_050"> </span><span class="cls_049">उन</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">यऺा</span><span class="cls_050"> </span><span class="cls_049">कयनी</span><span class="cls_050"> </span><span class="cls_049">चाह</span><span class="cls_050">ȣ</span><span class="cls_048">,</span><span class="cls_050"> </span><span class="cls_049">ऩय</span><span class="cls_050"> </span><span class="cls_049">मह</span></div>
+<div style="position:absolute;left:36.00px;top:707.06px" class="cls_049"><span class="cls_049">उनकी</span><span class="cls_050"> </span><span class="cls_049">नादानी</span><span class="cls_050"> </span><span class="cls_049">लसदध</span><span class="cls_050"> </span><span class="cls_049">हई।</span><span class="cls_050"> ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">अऩन</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">यऺा</span><span class="cls_050"> è</span><span class="cls_049">वम</span><span class="cls_050"> </span><span class="cls_049">कय</span><span class="cls_050"> </span><span class="cls_049">सकती</span></div>
+<div style="position:absolute;left:36.00px;top:738.02px" class="cls_049"><span class="cls_049">थी।फचचो</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">यऺा</span><span class="cls_050"> </span><span class="cls_049">कयन</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">पमास</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">उनह</span><span class="cls_050"> </span><span class="cls_049">छकय</span><span class="cls_050"> </span><span class="cls_049">गदा</span><span class="cls_050"> </span><span class="cls_049">कय</span><span class="cls_050"> Ǒ</span><span class="cls_049">दमा।उनह</span></div>
+<div style="position:absolute;left:36.00px;top:768.98px" class="cls_049"><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">भारभ</span><span class="cls_050"> </span><span class="cls_049">था</span><span class="cls_050"> </span><span class="cls_049">कक</span><span class="cls_050"> </span><span class="cls_049">म</span><span class="cls_050">Ǒ</span><span class="cls_049">द</span><span class="cls_050"> </span><span class="cls_049">व</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">छ</span><span class="cls_050"> </span><span class="cls_049">रग</span><span class="cls_050"> </span><span class="cls_049">तो</span><span class="cls_050"> ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">उनह</span><span class="cls_050"> </span><span class="cls_049">छोड</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050">ȣ </span><span class="cls_049">दगी।</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:9361px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background12.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:23.56px" class="cls_049"><span class="cls_049">वा</span><span class="cls_050">è</span><span class="cls_049">तव</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">व</span><span class="cls_050"> </span><span class="cls_049">तो</span><span class="cls_050"> </span><span class="cls_049">उन</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">यऺा</span><span class="cls_050"> </span><span class="cls_049">कयना</span><span class="cls_050"> </span><span class="cls_049">चाहत</span><span class="cls_050"> </span><span class="cls_049">थ</span><span class="cls_050"> </span><span class="cls_049">रककन</span><span class="cls_050"> </span><span class="cls_049">नादानी</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">यऺा</span><span class="cls_050"> </span><span class="cls_049">भ</span></div>
+<div style="position:absolute;left:36.00px;top:54.52px" class="cls_049"><span class="cls_049">हतमा हो गई।</span></div>
+<div style="position:absolute;left:36.00px;top:197.46px" class="cls_101"><span class="cls_101">LET’S EX  MINE:</span></div>
+<div style="position:absolute;left:54.00px;top:236.46px" class="cls_051"><span class="cls_051">1.</span><span class="cls_052"> </span><span class="cls_050">ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">अड</span><span class="cls_050"> </span><span class="cls_049">कहा</span><span class="cls_050"> Ǒ</span><span class="cls_049">दए</span><span class="cls_050"> </span><span class="cls_049">थ</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:265.53px" class="cls_051"><span class="cls_051">2.</span><span class="cls_052"> </span><span class="cls_049">नादान</span><span class="cls_050"> </span><span class="cls_049">दो</span><span class="cls_050">è</span><span class="cls_049">त</span><span class="cls_050"> </span><span class="cls_049">ऩाठ</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">रखक</span><span class="cls_050"> </span><span class="cls_049">कौन</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:294.45px" class="cls_051"><span class="cls_051">3.</span><span class="cls_052"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">भा</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">मह</span><span class="cls_050"> </span><span class="cls_049">कमो</span><span class="cls_050"> </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">फतामा</span><span class="cls_050"> </span><span class="cls_049">कक</span><span class="cls_050"> </span><span class="cls_049">दयवाजा</span><span class="cls_050"> </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">खोरा</span><span class="cls_050"> </span><span class="cls_049">था</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:323.49px" class="cls_051"><span class="cls_051">4.</span><span class="cls_052"> </span><span class="cls_049">फचचोकभनभकमाजजऻासाथी</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:352.53px" class="cls_051"><span class="cls_051">5.</span><span class="cls_052"> </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">औय</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">खान</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">लरए</span><span class="cls_050"> </span><span class="cls_049">कमायखा</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:381.57px" class="cls_051"><span class="cls_051">6.</span><span class="cls_052"> </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">कारनस</span><span class="cls_050"> </span><span class="cls_049">तक</span><span class="cls_050"> </span><span class="cls_049">कस</span><span class="cls_050"> </span><span class="cls_049">ऩहचा</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:410.49px" class="cls_051"><span class="cls_051">7.</span><span class="cls_052"> </span><span class="cls_050">ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">ककतन</span><span class="cls_050"> </span><span class="cls_049">अड</span><span class="cls_050"> Ǒ</span><span class="cls_049">दए</span><span class="cls_050"> </span><span class="cls_049">थ</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:439.53px" class="cls_051"><span class="cls_051">8.</span><span class="cls_052"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">धऩ</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">फचान</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">लरए</span><span class="cls_050"> </span><span class="cls_049">कशव</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">उस</span><span class="cls_050"> </span><span class="cls_049">ककस</span><span class="cls_050"> </span><span class="cls_049">चीज</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">ढका</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:468.59px" class="cls_051"><span class="cls_051">9.</span><span class="cls_052"> </span><span class="cls_049">भा</span><span class="cls_050"> </span><span class="cls_049">फचचो</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">घय</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">फाहय</span><span class="cls_050"> </span><span class="cls_049">जान</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">कमो</span><span class="cls_050"> </span><span class="cls_049">भना</span><span class="cls_050"> </span><span class="cls_049">कयती</span><span class="cls_050"> </span><span class="cls_049">थी</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:497.51px" class="cls_051"><span class="cls_051">10.</span></div>
+<div style="position:absolute;left:108.02px;top:497.51px" class="cls_049"><span class="cls_049">भा</span><span class="cls_050"> </span><span class="cls_049">न</span><span class="cls_050"> </span><span class="cls_049">दोऩहय</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">डाट</span><span class="cls_051">-</span><span class="cls_049">डऩटकय</span><span class="cls_050"> </span><span class="cls_049">फचचो</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">कभय</span><span class="cls_050"> </span><span class="cls_049">भ</span><span class="cls_050"> </span><span class="cls_049">फद</span><span class="cls_050"> </span><span class="cls_049">कय</span><span class="cls_050"> Ǒ</span><span class="cls_049">दमा।उस</span></div>
+<div style="position:absolute;left:72.02px;top:526.55px" class="cls_049"><span class="cls_049">सभम</span><span class="cls_050"> </span><span class="cls_049">कमा</span><span class="cls_050"> </span><span class="cls_049">सभम</span><span class="cls_050"> </span><span class="cls_049">हआ</span><span class="cls_050"> </span><span class="cls_049">था</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:54.00px;top:555.59px" class="cls_051"><span class="cls_051">11.</span></div>
+<div style="position:absolute;left:108.02px;top:555.59px" class="cls_049"><span class="cls_049">अचानक</span><span class="cls_050"> </span><span class="cls_049">शमाभा</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">आख</span><span class="cls_050"> </span><span class="cls_049">ककतन</span><span class="cls_050"> </span><span class="cls_049">फज</span><span class="cls_050"> </span><span class="cls_049">खर</span><span class="cls_050">ȣ?</span></div>
+<div style="position:absolute;left:54.00px;top:584.51px" class="cls_051"><span class="cls_051">12.</span></div>
+<div style="position:absolute;left:116.06px;top:584.51px" class="cls_050"><span class="cls_050">20 </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">कसी</span><span class="cls_050"> </span><span class="cls_049">चीज</span><span class="cls_050"> </span><span class="cls_049">फाहय</span><span class="cls_050"> </span><span class="cls_049">रनकर</span><span class="cls_050">ȣ </span><span class="cls_049">थी</span><span class="cls_050">?</span></div>
+<div style="position:absolute;left:36.00px;top:641.42px" class="cls_101"><span class="cls_101">LEARNING OUTCOME:</span></div>
+<div style="position:absolute;left:44.04px;top:680.42px" class="cls_049"><span class="cls_049">इस</span><span class="cls_050"> </span><span class="cls_049">कहानी</span><span class="cls_050"> </span><span class="cls_049">स</span><span class="cls_050"> </span><span class="cls_049">फचचो</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">मह</span><span class="cls_050"> </span><span class="cls_049">लशऺा</span><span class="cls_050"> </span><span class="cls_049">लभर</span><span class="cls_050">ȣ </span><span class="cls_049">की</span><span class="cls_050"> ͬ</span><span class="cls_049">चडडमा</span><span class="cls_050"> </span><span class="cls_049">अऩन</span><span class="cls_050"> </span><span class="cls_049">फचचो</span><span class="cls_050"> </span><span class="cls_049">की</span><span class="cls_050"> </span><span class="cls_049">सयऺा</span></div>
+<div style="position:absolute;left:36.00px;top:711.38px" class="cls_050"><span class="cls_050">è</span><span class="cls_049">वम</span><span class="cls_050"> </span><span class="cls_049">कयती</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050"> </span><span class="cls_049">।ककसीदसय</span><span class="cls_050"> </span><span class="cls_049">क</span><span class="cls_050"> </span><span class="cls_049">दवाया</span><span class="cls_050"> </span><span class="cls_049">उनक</span><span class="cls_050"> </span><span class="cls_049">अडो</span><span class="cls_050"> </span><span class="cls_049">को</span><span class="cls_050"> </span><span class="cls_049">छ</span><span class="cls_050"> </span><span class="cls_049">दन</span><span class="cls_050"> </span><span class="cls_049">ऩय</span><span class="cls_050"> </span><span class="cls_049">वह</span><span class="cls_050"> </span><span class="cls_049">उनह</span><span class="cls_050"> </span><span class="cls_049">तोड</span></div>
+<div style="position:absolute;left:36.00px;top:742.22px" class="cls_049"><span class="cls_049">दती</span><span class="cls_050"> </span><span class="cls_049">ह</span><span class="cls_050"> </span><span class="cls_048">,</span><span class="cls_049">उस</span><span class="cls_050"> </span><span class="cls_049">अऩन</span><span class="cls_050"> </span><span class="cls_049">ऩास</span><span class="cls_050"> </span><span class="cls_049">नह</span><span class="cls_050">ȣ </span><span class="cls_049">यखती</span><span class="cls_050"> </span><span class="cls_049">ह।</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:10212px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background13.jpg" width=595 height=841></div>
+<div style="position:absolute;left:84.38px;top:37.12px" class="cls_086"><span class="cls_086">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:36.00px;top:96.66px" class="cls_012"><span class="cls_012">Grade- VI</span></div>
+<div style="position:absolute;left:360.07px;top:96.66px" class="cls_012"><span class="cls_012">Module-6</span></div>
+<div style="position:absolute;left:36.00px;top:117.30px" class="cls_087"><span class="cls_087">SUBJECT</span><span class="cls_012">-SANSKRIT (RUCHIRA)</span></div>
+<div style="position:absolute;left:36.00px;top:143.94px" class="cls_087"><span class="cls_087">CHAPTER NAME</span><span class="cls_012">-</span><span class="cls_088">CHAPTER- 2</span></div>
+<div style="position:absolute;left:36.00px;top:173.46px" class="cls_088"><span class="cls_088">TOPIC: </span><span class="cls_102">आकायानत</span><span class="cls_103">è</span><span class="cls_102">रीलरग्</span><span class="cls_103"> (</span><span class="cls_102">अभमासकाम</span><span class="cls_103">)</span></div>
+<div style="position:absolute;left:36.00px;top:203.70px" class="cls_012"><span class="cls_012">Link- </span><A HREF="https://www.extramarks.com/">https://www.extramarks.com/</A> </span></div>
+<div style="position:absolute;left:72.02px;top:229.98px" class="cls_054"><span class="cls_054">Link- </span><A HREF="http://ncert.nic.in/ebooks.html">http://ncert.nic.in/ebooks.html</A> </span></div>
+<div style="position:absolute;left:36.00px;top:309.57px" class="cls_007"><span class="cls_007">Please find herewith the web links of the chapters along with the written assignment we wish you</span></div>
+<div style="position:absolute;left:36.00px;top:326.73px" class="cls_007"><span class="cls_007">to cover up by the end of this break. The entire assignment will form a part of your subject</span></div>
+<div style="position:absolute;left:36.00px;top:343.77px" class="cls_007"><span class="cls_007">enrichment assessment and needs to be done in home-work copy. This assignment will be a part</span></div>
+<div style="position:absolute;left:36.00px;top:360.93px" class="cls_007"><span class="cls_007">of  subject enrichment. In case of any clarification please feel free to get in touch with your subject</span></div>
+<div style="position:absolute;left:36.00px;top:378.09px" class="cls_007"><span class="cls_007">teachers, once the school reopens or else mail it to principal@firayalalpublicschool.com</span></div>
+<div style="position:absolute;left:36.00px;top:415.05px" class="cls_087"><span class="cls_087">TUTORIALS:-</span><span class="cls_036">आकायानत</span><span class="cls_053">è</span><span class="cls_036">रीलरग्</span><span class="cls_053"> (</span><span class="cls_036">अभमासकाम</span><span class="cls_053">)</span></div>
+<div style="position:absolute;left:54.00px;top:449.73px" class="cls_007"><span class="cls_007">1.</span></div>
+<div style="position:absolute;left:72.02px;top:449.73px" class="cls_007"><span class="cls_007">(</span><span class="cls_036">क</span><span class="cls_053">) </span><span class="cls_036">उचचायणकरत।</span><span class="cls_053">Ǒ</span><span class="cls_036">दएगएशबदोकाछारउचचायणकयग।</span></div>
+<div style="position:absolute;left:72.02px;top:469.91px" class="cls_007"><span class="cls_007">(</span><span class="cls_036">ख</span><span class="cls_053">) ͬ</span><span class="cls_036">चराणणदषटवाऩदारनउचचायमत।</span><span class="cls_053">ͬ</span><span class="cls_036">चरकोदखकयछारउनकस</span><span class="cls_053">è</span><span class="cls_036">कतनाभोकाउचचायणकयग।</span></div>
+<div style="position:absolute;left:72.02px;top:490.07px" class="cls_007"><span class="cls_007">2. (</span><span class="cls_036">क</span><span class="cls_053">) </span><span class="cls_036">वणसमोजनकतवाऩदकोषठकलरखत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:90.02px;top:510.23px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">उ</span><span class="cls_007">+</span><span class="cls_036">द</span><span class="cls_007">+</span><span class="cls_036">म</span><span class="cls_007">+</span><span class="cls_036">आ</span><span class="cls_007">+</span><span class="cls_036">न</span><span class="cls_007">+</span><span class="cls_036">ए</span><span class="cls_053">= </span><span class="cls_036">उधान।</span></div>
+<div style="position:absolute;left:90.02px;top:530.27px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">स</span><span class="cls_007">+</span><span class="cls_036">थ</span><span class="cls_007">+</span><span class="cls_036">आ</span><span class="cls_007">+</span><span class="cls_036">र</span><span class="cls_007">+</span><span class="cls_036">इ</span><span class="cls_007">+</span><span class="cls_036">क</span><span class="cls_007">+</span><span class="cls_036">आ</span><span class="cls_053">=</span><span class="cls_057">è  </span><span class="cls_036">ालऱका।</span></div>
+<div style="position:absolute;left:90.02px;top:550.43px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">घ</span><span class="cls_007">+</span><span class="cls_036">अ</span><span class="cls_007">+</span><span class="cls_036">ट</span><span class="cls_007">+</span><span class="cls_036">इ</span><span class="cls_007">+</span><span class="cls_036">क</span><span class="cls_007">+</span><span class="cls_036">आ</span><span class="cls_053">=</span><span class="cls_036">घठिका।</span></div>
+<div style="position:absolute;left:90.02px;top:570.59px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">स</span><span class="cls_007">+</span><span class="cls_036">त</span><span class="cls_007">+</span><span class="cls_036">य</span><span class="cls_007">+</span><span class="cls_036">ई</span><span class="cls_007">+</span><span class="cls_036">र</span><span class="cls_007">+</span><span class="cls_036">इ</span><span class="cls_007">+</span><span class="cls_036">ङ</span><span class="cls_007">+</span><span class="cls_036">ग</span><span class="cls_007">+</span><span class="cls_036">अ्</span><span class="cls_053">=</span><span class="cls_057">è</span><span class="cls_036">र</span><span class="cls_057">Ȣ</span><span class="cls_036">लऱग्।</span></div>
+<div style="position:absolute;left:90.02px;top:590.75px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">भ</span><span class="cls_007">+</span><span class="cls_036">आ</span><span class="cls_007">+</span><span class="cls_036">ऩ</span><span class="cls_007">+</span><span class="cls_036">इ</span><span class="cls_007">+</span><span class="cls_036">क</span><span class="cls_007">+</span><span class="cls_036">आ</span><span class="cls_053">=</span><span class="cls_036">मा</span><span class="cls_057">ͪ</span><span class="cls_036">ऩका।</span></div>
+<div style="position:absolute;left:108.02px;top:625.91px" class="cls_007"><span class="cls_007">(</span><span class="cls_036">ख</span><span class="cls_053">) </span><span class="cls_036">ऩदानावणववचछदपदशमत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:90.02px;top:646.10px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">चटक</span><span class="cls_007">- </span><span class="cls_036">च</span><span class="cls_012">+</span><span class="cls_036">अ</span><span class="cls_012">+</span><span class="cls_057">ɪ</span><span class="cls_012">+</span><span class="cls_036">अ</span><span class="cls_012">+</span><span class="cls_036">क</span><span class="cls_012">+</span><span class="cls_036">ए।</span></div>
+<div style="position:absolute;left:90.02px;top:666.26px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">धाववका्</span><span class="cls_007">-</span><span class="cls_036">ध</span><span class="cls_012">+</span><span class="cls_036">आ</span><span class="cls_012">+</span><span class="cls_036">व</span><span class="cls_012">+</span><span class="cls_036">इ</span><span class="cls_012">+</span><span class="cls_036">क</span><span class="cls_012">+</span><span class="cls_036">आ्।</span></div>
+<div style="position:absolute;left:90.02px;top:686.42px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">कजचचका</span><span class="cls_007">- </span><span class="cls_036">क</span><span class="cls_012">+</span><span class="cls_036">उ</span><span class="cls_012">+</span><span class="cls_036">ञा</span><span class="cls_012">+</span><span class="cls_036">च</span><span class="cls_012">+</span><span class="cls_036">इ</span><span class="cls_012">+</span><span class="cls_036">क</span><span class="cls_012">+</span><span class="cls_036">आ।</span></div>
+<div style="position:absolute;left:90.02px;top:706.46px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">खटवा</span><span class="cls_007">- </span><span class="cls_036">ख</span><span class="cls_012">+</span><span class="cls_036">अ</span><span class="cls_012">+</span><span class="cls_057">ɪ</span><span class="cls_012">+</span><span class="cls_036">व</span><span class="cls_012">+</span><span class="cls_036">आ।</span></div>
+<div style="position:absolute;left:90.02px;top:726.62px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">छरयका</span><span class="cls_007">- </span><span class="cls_036">छ</span><span class="cls_012">+</span><span class="cls_036">उ</span><span class="cls_012">+</span><span class="cls_036">र</span><span class="cls_012">+</span><span class="cls_036">इ</span><span class="cls_012">+</span><span class="cls_036">क</span><span class="cls_012">+</span><span class="cls_036">आ।</span></div>
+<div style="position:absolute;left:72.02px;top:761.30px" class="cls_007"><span class="cls_007">3.</span><span class="cls_053">ͬ</span><span class="cls_036">चरदषटवास</span><span class="cls_053">è</span><span class="cls_036">कतऩदलरखत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:90.02px;top:781.46px" class="cls_036"><span class="cls_036"></span><span class="cls_056"> </span><span class="cls_053">  </span><span class="cls_036">उतऩी</span><span class="cls_053">Ǒ</span><span class="cls_036">ठका</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:11063px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background14.jpg" width=595 height=841></div>
+<div style="position:absolute;left:90.02px;top:22.72px" class="cls_036"><span class="cls_036"></span></div>
+<div style="position:absolute;left:108.02px;top:22.72px" class="cls_036"><span class="cls_036">ऩ</span><span class="cls_053">Ǒ</span><span class="cls_036">टका</span></div>
+<div style="position:absolute;left:90.02px;top:42.88px" class="cls_036"><span class="cls_036"></span></div>
+<div style="position:absolute;left:108.02px;top:42.88px" class="cls_036"><span class="cls_036">नौका</span></div>
+<div style="position:absolute;left:90.02px;top:63.04px" class="cls_036"><span class="cls_036"></span></div>
+<div style="position:absolute;left:108.02px;top:63.04px" class="cls_036"><span class="cls_036">चटका</span></div>
+<div style="position:absolute;left:90.02px;top:83.22px" class="cls_036"><span class="cls_036"></span></div>
+<div style="position:absolute;left:108.02px;top:83.22px" class="cls_036"><span class="cls_036">वदधा</span></div>
+<div style="position:absolute;left:90.02px;top:103.38px" class="cls_036"><span class="cls_036"></span></div>
+<div style="position:absolute;left:108.02px;top:103.38px" class="cls_036"><span class="cls_036">भावऩका</span></div>
+<div style="position:absolute;left:108.02px;top:138.42px" class="cls_007"><span class="cls_007">4. </span><span class="cls_036">वचनानसायरयकत</span><span class="cls_053">è</span><span class="cls_036">थानारनऩयमत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:108.02px;top:158.58px" class="cls_036"><span class="cls_036">गीता</span><span class="cls_102">ग</span><span class="cls_105">Ȣ</span><span class="cls_102">तग</span><span class="cls_105">Ȣ</span><span class="cls_102">ता्।</span></div>
+<div style="position:absolute;left:108.02px;top:178.74px" class="cls_102"><span class="cls_102">ऩठिका</span><span class="cls_036">ऩ</span><span class="cls_053">Ǒ</span><span class="cls_036">टक</span><span class="cls_102">ऩठिका्।</span></div>
+<div style="position:absolute;left:108.02px;top:198.90px" class="cls_102"><span class="cls_102">ख</span><span class="cls_105">ɪ</span><span class="cls_102">वाख</span><span class="cls_105">ɪ</span><span class="cls_102">व</span><span class="cls_036">खटवा्।</span></div>
+<div style="position:absolute;left:108.02px;top:219.06px" class="cls_036"><span class="cls_036">सा</span><span class="cls_102">तता्</span><span class="cls_036">।</span></div>
+<div style="position:absolute;left:108.02px;top:239.22px" class="cls_102"><span class="cls_102">रोठिका</span><span class="cls_036">यो</span><span class="cls_053">Ǒ</span><span class="cls_036">टक</span><span class="cls_102">रोठिका्</span><span class="cls_036">।</span></div>
+<div style="position:absolute;left:108.02px;top:273.81px" class="cls_012"><span class="cls_012">5. </span><span class="cls_036">कोषठातउ</span><span class="cls_053">ͬ</span><span class="cls_036">चतशबद</span><span class="cls_053">ͬ</span><span class="cls_036">चतवावाकमऩयमत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:108.02px;top:293.97px" class="cls_036"><span class="cls_036">क</span><span class="cls_057">) </span><span class="cls_102">अज</span><span class="cls_036">चयत्।</span></div>
+<div style="position:absolute;left:108.02px;top:314.13px" class="cls_036"><span class="cls_036">ख</span><span class="cls_057">)</span><span class="cls_102">द</span><span class="cls_105">ͪ</span><span class="cls_102">वचकिका</span><span class="cls_036">सजनत।</span></div>
+<div style="position:absolute;left:108.02px;top:334.29px" class="cls_036"><span class="cls_036">ग</span><span class="cls_057">) </span><span class="cls_102">नौका</span><span class="cls_036">चररत।</span></div>
+<div style="position:absolute;left:108.02px;top:354.45px" class="cls_036"><span class="cls_036">घ</span><span class="cls_057">) </span><span class="cls_102">सचचका</span><span class="cls_036">अज</span><span class="cls_053">è</span><span class="cls_036">त।</span></div>
+<div style="position:absolute;left:108.02px;top:374.61px" class="cls_036"><span class="cls_036">ङ</span><span class="cls_057">) </span><span class="cls_102">मकऺका्</span><span class="cls_036">उतऩतजनत।</span></div>
+<div style="position:absolute;left:108.02px;top:409.77px" class="cls_007"><span class="cls_007">6. </span><span class="cls_036">सा</span><span class="cls_007">, </span><span class="cls_036">त</span><span class="cls_007">, </span><span class="cls_036">ता्इतमतभम्उ</span><span class="cls_053">ͬ</span><span class="cls_036">चतसवनाभऩद</span><span class="cls_053">ͬ</span><span class="cls_036">चतवारयकत</span><span class="cls_053">è</span><span class="cls_036">थानारनऩयमत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:108.02px;top:429.93px" class="cls_036"><span class="cls_036">क</span><span class="cls_053">) </span><span class="cls_036">भ</span><span class="cls_053">Ǒ</span><span class="cls_036">हरा्धावजनत।</span><span class="cls_007">- </span><span class="cls_102">ता्</span><span class="cls_036">धावजनत।</span></div>
+<div style="position:absolute;left:108.02px;top:449.97px" class="cls_036"><span class="cls_036">ख</span><span class="cls_053">) </span><span class="cls_036">सधावदरत।</span><span class="cls_007">- </span><span class="cls_102">सा</span><span class="cls_036">वदरत।</span></div>
+<div style="position:absolute;left:108.02px;top:470.15px" class="cls_036"><span class="cls_036">ग</span><span class="cls_053">) </span><span class="cls_036">जवरनकदोरत्।</span><span class="cls_007">- </span><span class="cls_102">त</span><span class="cls_036">दोरत्।</span></div>
+<div style="position:absolute;left:108.02px;top:490.31px" class="cls_036"><span class="cls_036">घ</span><span class="cls_053">) </span><span class="cls_036">वऩऩीलरका्चरजनत।</span><span class="cls_007">- </span><span class="cls_102">ता्</span><span class="cls_036">चरजनत।</span></div>
+<div style="position:absolute;left:108.02px;top:510.47px" class="cls_036"><span class="cls_036">ङ</span><span class="cls_053">) </span><span class="cls_036">चटककजत्।</span><span class="cls_007">-  </span><span class="cls_102">त</span><span class="cls_036">कजत्।</span></div>
+<div style="position:absolute;left:108.02px;top:545.63px" class="cls_007"><span class="cls_007">7. </span><span class="cls_036">भचजषात्कतऩद</span><span class="cls_053">ͬ</span><span class="cls_036">चतवारयकत</span><span class="cls_053">è</span><span class="cls_036">थानारन</span><span class="cls_053"> </span><span class="cls_036">ऩयमत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:108.02px;top:565.79px" class="cls_036"><span class="cls_036">क</span><span class="cls_053">) </span><span class="cls_102">ऩषऩमाऱा्</span><span class="cls_036">सजनत।</span></div>
+<div style="position:absolute;left:108.02px;top:585.95px" class="cls_036"><span class="cls_036">ख</span><span class="cls_053">) </span><span class="cls_102">बाऱक्</span><span class="cls_036">ऩशमरत।</span></div>
+<div style="position:absolute;left:108.02px;top:606.11px" class="cls_036"><span class="cls_036">ग</span><span class="cls_053">) </span><span class="cls_102">ऱखखका</span><span class="cls_036">लरखरत।</span></div>
+<div style="position:absolute;left:108.02px;top:626.27px" class="cls_036"><span class="cls_036">घ</span><span class="cls_053">) </span><span class="cls_102">लसहा्</span><span class="cls_036">गजजनत।</span></div>
+<div style="position:absolute;left:108.02px;top:646.34px" class="cls_036"><span class="cls_036">ङ</span><span class="cls_053">) </span><span class="cls_102">तरचकिका</span><span class="cls_036">चररत।</span></div>
+<div style="position:absolute;left:108.02px;top:681.50px" class="cls_007"><span class="cls_007">8. </span><span class="cls_036">भचजषात्कतऩदानसायकिमाऩद</span><span class="cls_053">ͬ</span><span class="cls_036">चतवारयकत</span><span class="cls_053">è</span><span class="cls_036">थानारन</span><span class="cls_053"> </span><span class="cls_036">ऩयमत</span><span class="cls_007">-</span></div>
+<div style="position:absolute;left:108.02px;top:701.66px" class="cls_036"><span class="cls_036">क</span><span class="cls_053">) </span><span class="cls_036">सौ</span><span class="cls_053">à</span><span class="cls_036">मा</span><span class="cls_102">नतयतत।</span></div>
+<div style="position:absolute;left:108.02px;top:721.82px" class="cls_036"><span class="cls_036">ख</span><span class="cls_053">) </span><span class="cls_036">चटक</span><span class="cls_105">ͪ</span><span class="cls_102">वहरत्।</span></div>
+<div style="position:absolute;left:108.02px;top:741.98px" class="cls_036"><span class="cls_036">ग</span><span class="cls_053">) </span><span class="cls_036">फालरक</span><span class="cls_102">गायत्।</span></div>
+<div style="position:absolute;left:108.02px;top:762.14px" class="cls_036"><span class="cls_036">घ</span><span class="cls_053">) </span><span class="cls_036">छारा्</span><span class="cls_102">लऱखनतत।</span></div>
+<div style="position:absolute;left:108.02px;top:782.30px" class="cls_102"><span class="cls_102">ङ</span><span class="cls_105">) </span><span class="cls_036">जना्</span><span class="cls_102">ऩशयनतत।</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:11914px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background15.jpg" width=595 height=841></div>
+<div style="position:absolute;left:90.02px;top:37.72px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_060"> </span><span class="cls_058">छारसबीअभमासकाम</span><span class="cls_060"> </span><span class="cls_058">कोअऩनीउतयऩज</span><span class="cls_060">è</span><span class="cls_058">तकाभकयग।</span></div>
+<div style="position:absolute;left:36.00px;top:94.62px" class="cls_087"><span class="cls_087">LEARNING OUTCOME:-</span></div>
+<div style="position:absolute;left:72.02px;top:122.94px" class="cls_031"><span class="cls_031">After studying this topic, students will be able to:</span></div>
+<div style="position:absolute;left:90.02px;top:145.26px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_060"> </span><span class="cls_058">छारइसऩाठ</span><span class="cls_060"> </span><span class="cls_058">क</span><span class="cls_060"> </span><span class="cls_058">दवाया</span><span class="cls_060"> </span><span class="cls_058">आकायानत</span><span class="cls_060">è</span><span class="cls_058">रीलरग्शबदतथावाकमोकोजानग।</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:12765px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background16.jpg" width=595 height=841></div>
+<div style="position:absolute;left:84.38px;top:19.96px" class="cls_086"><span class="cls_086">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:36.00px;top:79.48px" class="cls_012"><span class="cls_012">Grade-   VI</span></div>
+<div style="position:absolute;left:360.07px;top:79.48px" class="cls_012"><span class="cls_012">Module -   VI</span></div>
+<div style="position:absolute;left:36.00px;top:116.82px" class="cls_087"><span class="cls_087">SUBJECT</span><span class="cls_012">-    SCIENCE</span></div>
+<div style="position:absolute;left:36.00px;top:143.34px" class="cls_087"><span class="cls_087">CHAPTER NAME</span><span class="cls_012">- FIBER  TO  FABRIC</span></div>
+<div style="position:absolute;left:36.00px;top:169.86px" class="cls_088"><span class="cls_088">TOPIC: YARN  TO  FABRIC   , HISTORY  OF  CLOTHING  MATERIAL</span></div>
+<div style="position:absolute;left:36.00px;top:222.54px" class="cls_012"><span class="cls_012">Link-</span></div>
+<div style="position:absolute;left:72.02px;top:248.82px" class="cls_104"><span class="cls_104"> </span><A HREF="https://youtu.be/q68kIdOnEtk">https://youtu.be/q68kIdOnEtk</A> </div>
+<div style="position:absolute;left:36.00px;top:312.45px" class="cls_007"><span class="cls_007">Please find herewith the web links of the chapters along with the written assignment we wish you</span></div>
+<div style="position:absolute;left:36.00px;top:329.61px" class="cls_007"><span class="cls_007">to cover up by the end of this break. The entire assignment will form a part of your subject</span></div>
+<div style="position:absolute;left:36.00px;top:346.77px" class="cls_007"><span class="cls_007">enrichment assessment and needs to be done in home-work copy. This assignment will be a part</span></div>
+<div style="position:absolute;left:36.00px;top:363.93px" class="cls_007"><span class="cls_007">of  subject enrichment. In case of any clarification please feel free to get in touch with your subject</span></div>
+<div style="position:absolute;left:36.00px;top:381.09px" class="cls_007"><span class="cls_007">teachers, once the school reopens or else mail it to principal@firayalalpublicschool.com</span></div>
+<div style="position:absolute;left:36.00px;top:415.29px" class="cls_087"><span class="cls_087">TUTORIALS:-</span></div>
+<div style="position:absolute;left:36.00px;top:444.81px" class="cls_007"><span class="cls_007">INTRODUCTION:</span></div>
+<div style="position:absolute;left:36.00px;top:474.47px" class="cls_012"><span class="cls_012">Yarn  to  Fabric</span></div>
+<div style="position:absolute;left:36.00px;top:496.91px" class="cls_061"><span class="cls_061">There are two major ways using which yarn is converted to fabric, namely, Weaving and Knitting.</span></div>
+<div style="position:absolute;left:33.00px;top:519.35px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_064">   Weaving:</span><span class="cls_061"> The process of entwining two sets of yarn simultaneously to make fabric is called </span><span class="cls_064">Weaving</span><span class="cls_061">. The</span></div>
+<div style="position:absolute;left:51.00px;top:535.91px" class="cls_061"><span class="cls_061">process is done using a loom (which can either be operated by hand or by a machine) which interlaces two</span></div>
+<div style="position:absolute;left:51.00px;top:552.35px" class="cls_061"><span class="cls_061">sets of yarn at right angles to each other.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:13616px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background17.jpg" width=595 height=841></div>
+<div style="position:absolute;left:33.00px;top:24.16px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_064">   Knitting:</span><span class="cls_061"> Knitting is the process by which a single strand of yarn is used to make a piece of fabric. Socks,</span></div>
+<div style="position:absolute;left:51.00px;top:40.72px" class="cls_061"><span class="cls_061">sweaters, mufflers and a lot of other winter clothes are made of knitted fabrics. Knitting can be done by</span></div>
+<div style="position:absolute;left:51.00px;top:66.88px" class="cls_061"><span class="cls_061">handas well as by machines.</span></div>
+<div style="position:absolute;left:36.00px;top:328.65px" class="cls_067"><span class="cls_067">History of Clothing Material</span></div>
+<div style="position:absolute;left:33.00px;top:355.41px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   In earlier times, when people did not have access or the knowledge to process fibre, big leaves and the bark</span></div>
+<div style="position:absolute;left:51.00px;top:371.97px" class="cls_061"><span class="cls_061">of trees were used by people to cover themselves</span></div>
+<div style="position:absolute;left:33.00px;top:394.53px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   After settlement began in agricultural communities, they learnt how to weave. They used grass and twigs to</span></div>
+<div style="position:absolute;left:51.00px;top:410.97px" class="cls_061"><span class="cls_061">make mats and baskets. Animal hair or fleece and vines were warped together into stretched out strands</span></div>
+<div style="position:absolute;left:51.00px;top:427.53px" class="cls_061"><span class="cls_061">which were then woven into fabrics.</span></div>
+<div style="position:absolute;left:33.00px;top:449.97px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   There was an abundant growth of cotton in areas near Ganga, which the early Indians readily used to make</span></div>
+<div style="position:absolute;left:51.00px;top:466.55px" class="cls_061"><span class="cls_061">fabrics for themselves.</span></div>
+<div style="position:absolute;left:33.00px;top:488.99px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   There is another plant named flax which yields natural fibres.</span></div>
+<div style="position:absolute;left:33.00px;top:511.55px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   The early Egyptians cultivated both cotton and flax and used them for creating fabrics. These plants grew</span></div>
+<div style="position:absolute;left:51.00px;top:527.99px" class="cls_061"><span class="cls_061">near the river Nile.</span></div>
+<div style="position:absolute;left:33.00px;top:550.55px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   But in those days, people were not aware of the process of stitching. They simply used to wrap around the</span></div>
+<div style="position:absolute;left:51.00px;top:566.99px" class="cls_061"><span class="cls_061">fabric around different parts of their bodies. Even today unstitched clothes like </span><span class="cls_069">sarees, dhotis, lungis</span><span class="cls_061"> or</span></div>
+<div style="position:absolute;left:51.00px;top:583.55px" class="cls_061"><span class="cls_061">turbans are widely in use.</span></div>
+<div style="position:absolute;left:33.00px;top:603.71px" class="cls_062"><span class="cls_062"></span><span class="cls_063"> </span><span class="cls_061">   It was with the advent of the sewing needle that people learnt how to stitch fibres to make fabric.</span></div>
+<div style="position:absolute;left:36.00px;top:648.74px" class="cls_064"><span class="cls_064">LET’S  EXAMIN:</span></div>
+<div style="position:absolute;left:44.64px;top:671.30px" class="cls_064"><span class="cls_064">1. </span><span class="cls_061">Which  fabric  absorbs  the  most  water?  Either  Natural  fibre  or  synthesis</span></div>
+<div style="position:absolute;left:44.64px;top:693.74px" class="cls_061"><span class="cls_061">2. How  is  spinning  done  on  large  scale  ?</span></div>
+<div style="position:absolute;left:44.64px;top:716.30px" class="cls_061"><span class="cls_061">3. What  will  happen  if  we  pull  the  yarn  from  torn  pair  of  socks?  Why  so?</span></div>
+<div style="position:absolute;left:44.64px;top:738.74px" class="cls_061"><span class="cls_061">4. How  are  natural  fibers  better  than  synthetic  fibres ?</span></div>
+<div style="position:absolute;left:44.64px;top:761.30px" class="cls_061"><span class="cls_061">5. What  is  weaving  and  knitting  ?</span></div>
+<div style="position:absolute;left:44.64px;top:783.74px" class="cls_061"><span class="cls_061">6. What  are  looms ?  Name  the  two  types  of  looms.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:14467px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background18.jpg" width=595 height=841></div>
+<div style="position:absolute;left:38.88px;top:46.72px" class="cls_061"><span class="cls_061">7.  What  are  the  three  stages  in  history  of  the  development  of  clothing  materials ?</span></div>
+<div style="position:absolute;left:36.00px;top:79.84px" class="cls_087"><span class="cls_087">LEARNING OUTCOME:-</span></div>
+<div style="position:absolute;left:72.02px;top:93.78px" class="cls_031"><span class="cls_031">After studying this topic, students will be able to:</span></div>
+<div style="position:absolute;left:72.02px;top:123.06px" class="cls_007"><span class="cls_007">*Get  to  know  the  steps  of  yarn  to  fabric.</span></div>
+<div style="position:absolute;left:72.02px;top:138.06px" class="cls_007"><span class="cls_007">*</span></div>
+<div style="position:absolute;left:72.02px;top:152.94px" class="cls_007"><span class="cls_007">*Able  to  understand  history  of  clothing  material.</span></div>
+<div style="position:absolute;left:72.02px;top:182.82px" class="cls_007"><span class="cls_007">*Understand  the  process  of  weaving  and  knitting.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:15318px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background19.jpg" width=595 height=841></div>
+<div style="position:absolute;left:85.58px;top:37.12px" class="cls_086"><span class="cls_086">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:36.00px;top:101.82px" class="cls_012"><span class="cls_012">Grade-</span></div>
+<div style="position:absolute;left:129.02px;top:95.82px" class="cls_072"><span class="cls_072">VI</span></div>
+<div style="position:absolute;left:393.07px;top:101.82px" class="cls_012"><span class="cls_012">Module- 6</span></div>
+<div style="position:absolute;left:36.00px;top:125.10px" class="cls_087"><span class="cls_087">SUBJECT</span><span class="cls_012">-</span></div>
+<div style="position:absolute;left:180.02px;top:125.10px" class="cls_088"><span class="cls_088">CIVICS</span></div>
+<div style="position:absolute;left:36.00px;top:151.74px" class="cls_087"><span class="cls_087">CHAPTER NAME-</span></div>
+<div style="position:absolute;left:180.02px;top:151.74px" class="cls_088"><span class="cls_088">CHAPTER . 3</span></div>
+<div style="position:absolute;left:180.02px;top:178.26px" class="cls_088"><span class="cls_088">WHAT IS GOVERNMENT</span></div>
+<div style="position:absolute;left:36.00px;top:204.06px" class="cls_088"><span class="cls_088">TOPIC:</span></div>
+<div style="position:absolute;left:180.02px;top:204.06px" class="cls_088"><span class="cls_088">DEMOCRACY IN INDIA</span></div>
+<div style="position:absolute;left:36.00px;top:230.10px" class="cls_012"><span class="cls_012">Link-</span></div>
+<div style="position:absolute;left:180.02px;top:230.10px" class="cls_094"><span class="cls_094"> </span><A HREF="https://youtu.be/MXrxNmSFtyE">https://youtu.be/MXrxNmSFtyE</A> </div>
+<div style="position:absolute;left:180.02px;top:256.74px" class="cls_094"><span class="cls_094"> </span><A HREF="https://youtu.be/gWP_4ps7dtA">https://youtu.be/gWP_4ps7dtA</A> </div>
+<div style="position:absolute;left:36.00px;top:345.33px" class="cls_074"><span class="cls_074">Please find herewith the web links of the chapters along with the written</span></div>
+<div style="position:absolute;left:36.00px;top:365.37px" class="cls_074"><span class="cls_074">assignment we wish you to cover up by the end of this break. The entire assignment</span></div>
+<div style="position:absolute;left:36.00px;top:385.29px" class="cls_074"><span class="cls_074">will form a part of your subject enrichment assessment and needs to be done in</span></div>
+<div style="position:absolute;left:36.00px;top:405.33px" class="cls_074"><span class="cls_074">home-work copy. This assignment will be a part of  subject enrichment. In case of</span></div>
+<div style="position:absolute;left:36.00px;top:425.37px" class="cls_074"><span class="cls_074">any clarification please feel free to get in touch with your subject teachers, once the</span></div>
+<div style="position:absolute;left:36.00px;top:445.41px" class="cls_074"><span class="cls_074">school reopens or else mail it to principal@firayalalpublicschool.com</span></div>
+<div style="position:absolute;left:36.00px;top:480.35px" class="cls_087"><span class="cls_087">TUTORIALS:-</span></div>
+<div style="position:absolute;left:36.00px;top:496.31px" class="cls_106"><span class="cls_106">INTRODUCTION</span></div>
+<div style="position:absolute;left:36.00px;top:529.79px" class="cls_077"><span class="cls_077">Every country needs a government to take decisions. The government</span></div>
+<div style="position:absolute;left:36.00px;top:553.55px" class="cls_077"><span class="cls_077">provides all facilities to the citizens. Like electricity, water supply,</span></div>
+<div style="position:absolute;left:36.00px;top:577.31px" class="cls_077"><span class="cls_077">building schools, roads, hospitals, running postal and railway services</span></div>
+<div style="position:absolute;left:36.00px;top:601.19px" class="cls_077"><span class="cls_077">and several programmes to help the poor.</span></div>
+<div style="position:absolute;left:36.00px;top:634.94px" class="cls_077"><span class="cls_077">The  government  also  protects  the  boundaries  of  the  country  and</span></div>
+<div style="position:absolute;left:36.00px;top:658.82px" class="cls_077"><span class="cls_077">maintains peaceful relations with other countries. In times of natural</span></div>
+<div style="position:absolute;left:36.00px;top:682.58px" class="cls_077"><span class="cls_077">disasters like Tsunami, Earthquake it organizes camps to aid and assist</span></div>
+<div style="position:absolute;left:36.00px;top:706.34px" class="cls_077"><span class="cls_077">the affected people. Courts also play a part of the government. If there is</span></div>
+<div style="position:absolute;left:36.00px;top:730.22px" class="cls_077"><span class="cls_077">a dispute or someone has committed a crime then he will be punished</span></div>
+<div style="position:absolute;left:36.00px;top:753.98px" class="cls_077"><span class="cls_077">by the courts. The government control resources and protects the</span></div>
+<div style="position:absolute;left:36.00px;top:777.74px" class="cls_077"><span class="cls_077">territory of a country.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:16169px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background20.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:19.36px" class="cls_106"><span class="cls_106">LEVELS OF GOVERNMENT</span></div>
+<div style="position:absolute;left:36.00px;top:52.84px" class="cls_077"><span class="cls_077">The government works at three levels</span></div>
+<div style="position:absolute;left:36.00px;top:86.58px" class="cls_077"><span class="cls_077">1) Local level</span></div>
+<div style="position:absolute;left:36.00px;top:120.42px" class="cls_077"><span class="cls_077">2) State level</span></div>
+<div style="position:absolute;left:36.00px;top:154.26px" class="cls_077"><span class="cls_077">3) National level.</span></div>
+<div style="position:absolute;left:36.00px;top:187.98px" class="cls_077"><span class="cls_077">1) </span><span class="cls_106">Local level</span><span class="cls_077">: The local level means in the village there ia a Panchayat,</span></div>
+<div style="position:absolute;left:36.00px;top:211.86px" class="cls_077"><span class="cls_077">in towns there are municipalities and in cities there is a municipal</span></div>
+<div style="position:absolute;left:36.00px;top:235.62px" class="cls_077"><span class="cls_077">corporation.</span></div>
+<div style="position:absolute;left:36.00px;top:269.49px" class="cls_077"><span class="cls_077">2) </span><span class="cls_106">State level</span><span class="cls_077">:  At the state level there is a state government in every</span></div>
+<div style="position:absolute;left:36.00px;top:293.25px" class="cls_077"><span class="cls_077">state.</span></div>
+<div style="position:absolute;left:36.00px;top:327.09px" class="cls_077"><span class="cls_077">3) </span><span class="cls_106">National level</span><span class="cls_077">: The national level there is the central government for</span></div>
+<div style="position:absolute;left:36.00px;top:350.85px" class="cls_077"><span class="cls_077">the entire country.</span></div>
+<div style="position:absolute;left:36.00px;top:384.69px" class="cls_077"><span class="cls_077">The three organs of the government are Legislature, Executive and the</span></div>
+<div style="position:absolute;left:36.00px;top:408.45px" class="cls_077"><span class="cls_077">Judiciary. The Legislature makes the laws, the Executive implements</span></div>
+<div style="position:absolute;left:36.00px;top:432.33px" class="cls_077"><span class="cls_077">the laws and the Judiciary checks the validity of the laws.</span></div>
+<div style="position:absolute;left:36.00px;top:500.27px" class="cls_106"><span class="cls_106">LAWS AND THE GOVERNMENT</span></div>
+<div style="position:absolute;left:36.00px;top:533.75px" class="cls_077"><span class="cls_077">The government makes laws and all the people have to abide by the</span></div>
+<div style="position:absolute;left:36.00px;top:557.51px" class="cls_077"><span class="cls_077">laws of the government. For example there is a law says that all persons</span></div>
+<div style="position:absolute;left:36.00px;top:581.27px" class="cls_077"><span class="cls_077">must have a license while driving a vehicle and if any person is caught</span></div>
+<div style="position:absolute;left:36.00px;top:605.15px" class="cls_077"><span class="cls_077">without a license then he will be jailed or fined with a large sum of</span></div>
+<div style="position:absolute;left:36.00px;top:628.91px" class="cls_077"><span class="cls_077">money.</span></div>
+<div style="position:absolute;left:36.00px;top:663.14px" class="cls_106"><span class="cls_106">TYPES OF GOVERNMENT</span></div>
+<div style="position:absolute;left:36.00px;top:696.62px" class="cls_077"><span class="cls_077">India has a democratic form of government and in a democracy the</span></div>
+<div style="position:absolute;left:36.00px;top:720.38px" class="cls_077"><span class="cls_077">people give the government the power to rule and promote the welfare</span></div>
+<div style="position:absolute;left:36.00px;top:744.14px" class="cls_077"><span class="cls_077">of the people. The government is responsible for all its actions to the</span></div>
+<div style="position:absolute;left:36.00px;top:768.02px" class="cls_077"><span class="cls_077">people as the government is formed by the elected representatives of the</span></div>
+<div style="position:absolute;left:36.00px;top:791.78px" class="cls_077"><span class="cls_077">people.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:17020px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background21.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:19.00px" class="cls_077"><span class="cls_077">Another form of government is Monarchy. The monarch (King or</span></div>
+<div style="position:absolute;left:36.00px;top:42.76px" class="cls_077"><span class="cls_077">Queen) has the power to make decisions and run the government. The</span></div>
+<div style="position:absolute;left:36.00px;top:66.64px" class="cls_077"><span class="cls_077">monarch is not responsible for his decisions to the people. His decision</span></div>
+<div style="position:absolute;left:36.00px;top:90.42px" class="cls_077"><span class="cls_077">is final and is binding on the people of the country.</span></div>
+<div style="position:absolute;left:36.00px;top:124.62px" class="cls_106"><span class="cls_106">DEMOCRATIC GOVERNMENTS</span></div>
+<div style="position:absolute;left:36.00px;top:157.98px" class="cls_077"><span class="cls_077">India is a democracy and this achievement has come on its way after a</span></div>
+<div style="position:absolute;left:36.00px;top:181.86px" class="cls_077"><span class="cls_077">long eventful struggle of the Indian people. Democracy is the rule of the</span></div>
+<div style="position:absolute;left:36.00px;top:205.62px" class="cls_077"><span class="cls_077">majority elected by the people through voting. Such governments are</span></div>
+<div style="position:absolute;left:36.00px;top:229.50px" class="cls_077"><span class="cls_077">referred as Representative Democracies. In such governments people do</span></div>
+<div style="position:absolute;left:36.00px;top:253.26px" class="cls_077"><span class="cls_077">not participate directly but choose the representatives through election.</span></div>
+<div style="position:absolute;left:36.00px;top:277.05px" class="cls_077"><span class="cls_077">The government formed makes decisions for the entire population.</span></div>
+<div style="position:absolute;left:36.00px;top:310.89px" class="cls_077"><span class="cls_077">Universal  Adult  Franchise  is  the  basic  feature  of  a  democratic</span></div>
+<div style="position:absolute;left:36.00px;top:334.65px" class="cls_077"><span class="cls_077">government. The right to vote of every adult citizen without any</span></div>
+<div style="position:absolute;left:36.00px;top:358.53px" class="cls_077"><span class="cls_077">discrimination on the basis of caste, creed, religion, social economic</span></div>
+<div style="position:absolute;left:36.00px;top:382.29px" class="cls_077"><span class="cls_077">background. There was also a time when women and poor were not</span></div>
+<div style="position:absolute;left:36.00px;top:406.05px" class="cls_077"><span class="cls_077">allowed to participate in elections. Only men who were educated and</span></div>
+<div style="position:absolute;left:36.00px;top:429.93px" class="cls_077"><span class="cls_077">owned property could vote. American women got the right to vote</span></div>
+<div style="position:absolute;left:36.00px;top:453.71px" class="cls_077"><span class="cls_077">in1920 and Britain got the right to vote in1928. During the First World</span></div>
+<div style="position:absolute;left:36.00px;top:477.47px" class="cls_077"><span class="cls_077">War women’s struggle to vote strengthened and this movement was</span></div>
+<div style="position:absolute;left:36.00px;top:501.35px" class="cls_077"><span class="cls_077">called Women’s Suffrage movement.</span></div>
+<div style="position:absolute;left:36.00px;top:535.07px" class="cls_077"><span class="cls_077">During the war in both America and European countries men were</span></div>
+<div style="position:absolute;left:36.00px;top:558.95px" class="cls_077"><span class="cls_077">fighting  wars  so  women  were  called  to  do  the  work  which  was</span></div>
+<div style="position:absolute;left:36.00px;top:582.71px" class="cls_077"><span class="cls_077">considered as men’s work. Women began to organize and manage</span></div>
+<div style="position:absolute;left:36.00px;top:606.59px" class="cls_077"><span class="cls_077">different kind of work and people began to wonder that women are</span></div>
+<div style="position:absolute;left:36.00px;top:630.35px" class="cls_077"><span class="cls_077">equally capable to make decisions as men. Finally after a long drawn</span></div>
+<div style="position:absolute;left:36.00px;top:654.14px" class="cls_077"><span class="cls_077">struggle women got the right to vote.</span></div>
+<div style="position:absolute;left:36.00px;top:687.98px" class="cls_077"><span class="cls_077">Mahatma Gandhi in his journal “young India “explained the importance</span></div>
+<div style="position:absolute;left:36.00px;top:711.74px" class="cls_077"><span class="cls_077">of Universal Adult Franchise</span></div>
+<div style="position:absolute;left:36.00px;top:745.58px" class="cls_077"><span class="cls_077">Which should be exercised by all the citizens of India without any</span></div>
+<div style="position:absolute;left:36.00px;top:769.34px" class="cls_077"><span class="cls_077">discrimination on the basis of caste, creed, religion etc…?</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:17871px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background22.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:19.36px" class="cls_106"><span class="cls_106">LET’S EXAMINE</span></div>
+<div style="position:absolute;left:36.00px;top:52.84px" class="cls_077"><span class="cls_077">1)</span></div>
+<div style="position:absolute;left:72.02px;top:52.84px" class="cls_077"><span class="cls_077">How will you define a welfare state</span><span class="cls_106">?</span></div>
+<div style="position:absolute;left:36.00px;top:86.58px" class="cls_077"><span class="cls_077">2)</span></div>
+<div style="position:absolute;left:72.02px;top:86.58px" class="cls_077"><span class="cls_077">What are the three levels of government?</span></div>
+<div style="position:absolute;left:36.00px;top:120.42px" class="cls_077"><span class="cls_077">3)</span></div>
+<div style="position:absolute;left:72.02px;top:120.42px" class="cls_077"><span class="cls_077">What are the three organs of the government?</span></div>
+<div style="position:absolute;left:36.00px;top:154.26px" class="cls_077"><span class="cls_077">4)</span></div>
+<div style="position:absolute;left:72.02px;top:154.26px" class="cls_077"><span class="cls_077">What is the role of the Legislature and Executive wings of the</span></div>
+<div style="position:absolute;left:36.00px;top:178.02px" class="cls_077"><span class="cls_077">government?</span></div>
+<div style="position:absolute;left:36.00px;top:211.86px" class="cls_077"><span class="cls_077">5)</span></div>
+<div style="position:absolute;left:72.02px;top:211.86px" class="cls_077"><span class="cls_077">What is Monarchy?</span></div>
+<div style="position:absolute;left:36.00px;top:245.70px" class="cls_077"><span class="cls_077">6)</span></div>
+<div style="position:absolute;left:72.02px;top:245.70px" class="cls_077"><span class="cls_077">Define the term Democracy.</span></div>
+<div style="position:absolute;left:36.00px;top:279.45px" class="cls_077"><span class="cls_077">7)</span></div>
+<div style="position:absolute;left:72.02px;top:279.45px" class="cls_077"><span class="cls_077">What is the other name of a democratic government?</span></div>
+<div style="position:absolute;left:36.00px;top:320.85px" class="cls_077"><span class="cls_077">8)</span></div>
+<div style="position:absolute;left:72.02px;top:320.85px" class="cls_077"><span class="cls_077">What do you understand by Universal Adult Franchise?</span></div>
+<div style="position:absolute;left:36.00px;top:375.33px" class="cls_077"><span class="cls_077">9)</span></div>
+<div style="position:absolute;left:72.02px;top:375.33px" class="cls_077"><span class="cls_077">What was Women’s Suffrage movement?</span></div>
+<div style="position:absolute;left:36.00px;top:429.93px" class="cls_077"><span class="cls_077">10)  What was the journal written by Gandhi and what was its content?</span></div>
+<div style="position:absolute;left:36.00px;top:484.79px" class="cls_106"><span class="cls_106">LEARNING OUTCOME</span></div>
+<div style="position:absolute;left:36.00px;top:518.51px" class="cls_031"><span class="cls_031">1)</span></div>
+<div style="position:absolute;left:72.02px;top:518.51px" class="cls_031"><span class="cls_031">The students will understand that democracy is the best form of government.</span></div>
+<div style="position:absolute;left:36.00px;top:563.15px" class="cls_031"><span class="cls_031">2)</span></div>
+<div style="position:absolute;left:72.02px;top:563.15px" class="cls_031"><span class="cls_031">They will give importance to the rights of every citizen irrespective of any caste,</span></div>
+<div style="position:absolute;left:36.00px;top:579.23px" class="cls_031"><span class="cls_031">creed, religion etc…</span></div>
+<div style="position:absolute;left:36.00px;top:623.87px" class="cls_031"><span class="cls_031">3)</span></div>
+<div style="position:absolute;left:72.02px;top:623.87px" class="cls_031"><span class="cls_031">They  will  compare  the  Indian  democratic  government  with  other  forms  of</span></div>
+<div style="position:absolute;left:36.00px;top:639.98px" class="cls_031"><span class="cls_031">government.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:18722px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background23.jpg" width=595 height=841></div>
+<div style="position:absolute;left:129.38px;top:37.12px" class="cls_086"><span class="cls_086">FIRAYALAL PUBLIC SCHOOL, RANCHI</span></div>
+<div style="position:absolute;left:36.00px;top:96.66px" class="cls_012"><span class="cls_012">Grade-   VI</span></div>
+<div style="position:absolute;left:387.07px;top:96.66px" class="cls_012"><span class="cls_012">Module- 6</span></div>
+<div style="position:absolute;left:36.00px;top:117.30px" class="cls_087"><span class="cls_087">SUBJECT</span><span class="cls_012">-    IT (Computer)</span></div>
+<div style="position:absolute;left:36.00px;top:143.94px" class="cls_087"><span class="cls_087">CHAPTER NAME</span><span class="cls_012">-</span><span class="cls_088"> More on Windows 7</span></div>
+<div style="position:absolute;left:36.00px;top:170.46px" class="cls_088"><span class="cls_088">TOPIC: Windows 7 Taskbar</span></div>
+<div style="position:absolute;left:36.00px;top:196.38px" class="cls_012"><span class="cls_012">Link-      </span><A HREF="https://youtu.be/xubD5naBWhY">https://youtu.be/xubD5naBWhY</A> </span></div>
+<div style="position:absolute;left:75.02px;top:222.66px" class="cls_104"><span class="cls_104"> </span><A HREF="https://youtu.be/UuVICpZRi-Y">https://youtu.be/UuVICpZRi-Y</A> </div>
+<div style="position:absolute;left:72.02px;top:238.62px" class="cls_104"><span class="cls_104"> </span><A HREF="https://youtu.be/UuVICpZRi-Y">https://youtu.be/UuVICpZRi-Y</A> </div>
+<div style="position:absolute;left:36.00px;top:264.78px" class="cls_094"><span class="cls_094"> </span><A HREF="https://youtu.be/LT43jOWbJRA">https://youtu.be/LT43jOWbJRA</A> </div>
+<div style="position:absolute;left:36.00px;top:302.25px" class="cls_007"><span class="cls_007">Please find herewith the web links of the chapters along with the written assignment we wish you</span></div>
+<div style="position:absolute;left:36.00px;top:319.41px" class="cls_007"><span class="cls_007">to cover up by the end of this break. The entire assignment will form a part of your subject</span></div>
+<div style="position:absolute;left:36.00px;top:336.57px" class="cls_007"><span class="cls_007">enrichment assessment and needs to be done in home-work copy. This assignment will be a part</span></div>
+<div style="position:absolute;left:36.00px;top:353.61px" class="cls_007"><span class="cls_007">of  subject enrichment. In case of any clarification please feel free to get in touch with your subject</span></div>
+<div style="position:absolute;left:36.00px;top:370.77px" class="cls_007"><span class="cls_007">teachers, once the school reopens or else mail it to principal@firayalalpublicschool.com</span></div>
+<div style="position:absolute;left:36.00px;top:404.97px" class="cls_087"><span class="cls_087">TUTORIALS:-</span></div>
+<div style="position:absolute;left:36.00px;top:419.25px" class="cls_107"><span class="cls_107">Windows 7 Taskbar</span></div>
+<div style="position:absolute;left:54.00px;top:437.13px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> The Windows 7 taskbar is more flexible and provides an easy navigation</span></div>
+<div style="position:absolute;left:72.02px;top:454.55px" class="cls_074"><span class="cls_074">facility.</span></div>
+<div style="position:absolute;left:54.00px;top:472.67px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> We can pin our favourite programs anywhere on the taskbar for easy access.</span></div>
+<div style="position:absolute;left:54.00px;top:490.67px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> We can preview the thumbnails of the open files or programs by pointing to</span></div>
+<div style="position:absolute;left:72.02px;top:507.95px" class="cls_074"><span class="cls_074">their icons on the taskbar. To preview in full screen mode, simply move the</span></div>
+<div style="position:absolute;left:72.02px;top:525.35px" class="cls_074"><span class="cls_074">pointer over the thumbnail. Windows can even be closed from the thumbnail</span></div>
+<div style="position:absolute;left:72.02px;top:542.75px" class="cls_074"><span class="cls_074">preview.</span></div>
+<div style="position:absolute;left:54.00px;top:560.87px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> The new </span><span class="cls_013">Aero Peek feature </span><span class="cls_074">allows us to turn the open windows transparent</span></div>
+<div style="position:absolute;left:72.02px;top:578.15px" class="cls_074"><span class="cls_074">and makes the desktop screen visible. To do so, just point to the </span><span class="cls_013">show desktop</span></div>
+<div style="position:absolute;left:72.02px;top:595.55px" class="cls_013"><span class="cls_013">button </span><span class="cls_074">at the right edge of the taskbar.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:19573px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background24.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:89.34px" class="cls_107"><span class="cls_107">Snap</span></div>
+<div style="position:absolute;left:54.00px;top:107.34px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> Drag one of the windows to the left edge of the screen and another to the right</span></div>
+<div style="position:absolute;left:72.02px;top:124.62px" class="cls_074"><span class="cls_074">edge. In this manner, we can view two windows side by side.</span></div>
+<div style="position:absolute;left:54.00px;top:142.74px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> Dragging the window to the upper edge of the screen will take up the entire</span></div>
+<div style="position:absolute;left:72.02px;top:160.02px" class="cls_074"><span class="cls_074">screen.</span></div>
+<div style="position:absolute;left:54.00px;top:178.14px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_074"> Dragging the window to the lower edge of the screen will expand it vertically</span></div>
+<div style="position:absolute;left:72.02px;top:195.42px" class="cls_074"><span class="cls_074">occupying the half screen.</span></div>
+<div style="position:absolute;left:36.00px;top:264.69px" class="cls_107"><span class="cls_107">Shake</span></div>
+<div style="position:absolute;left:36.00px;top:281.97px" class="cls_074"><span class="cls_074">Click on the top of a window and without releasing the mouse button give your</span></div>
+<div style="position:absolute;left:36.00px;top:299.37px" class="cls_074"><span class="cls_074">mouse a shake. Every open window , except the one you are working with will be</span></div>
+<div style="position:absolute;left:36.00px;top:316.77px" class="cls_074"><span class="cls_074">minimised.</span></div>
+<div style="position:absolute;left:36.00px;top:368.61px" class="cls_107"><span class="cls_107">Windows media center</span></div>
+<div style="position:absolute;left:36.00px;top:385.77px" class="cls_074"><span class="cls_074">Watching TV, movies, and other video content on our PC is easier than ever. With a</span></div>
+<div style="position:absolute;left:36.00px;top:403.17px" class="cls_074"><span class="cls_074">cable connection, we can watch and record TV shows using Windows Media Center.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:20424px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_id_c97d7f98-9bd7-11ea-8b25-0cc47a792c0a_files/background25.jpg" width=595 height=841></div>
+<div style="position:absolute;left:36.00px;top:87.90px" class="cls_108"><span class="cls_108">Jump</span><span class="cls_031"> </span><span class="cls_108">List</span></div>
+<div style="position:absolute;left:36.00px;top:121.86px" class="cls_031"><span class="cls_031">This feature allows us to view the pinned documents, pictures, songs, Or websites that are</span></div>
+<div style="position:absolute;left:36.00px;top:145.98px" class="cls_031"><span class="cls_031">used frequently. To open a jump list, just right click on a program icon on the windows 7</span></div>
+<div style="position:absolute;left:36.00px;top:170.10px" class="cls_031"><span class="cls_031">taskbar. It will display a list of recently modified documents within that program. For</span></div>
+<div style="position:absolute;left:36.00px;top:194.22px" class="cls_031"><span class="cls_031">example, the jump list for Internet Explorer shows recently opened websites.</span></div>
+<div style="position:absolute;left:36.00px;top:262.86px" class="cls_108"><span class="cls_108">Aero flip 3D</span></div>
+<div style="position:absolute;left:39.48px;top:296.73px" class="cls_031"><span class="cls_031">This feature enables us to preview all open windows as a stack. To activate this feature,</span></div>
+<div style="position:absolute;left:36.00px;top:320.85px" class="cls_031"><span class="cls_031">press windows key + tab key combination on the keyboard.</span></div>
+<div style="position:absolute;left:36.00px;top:385.17px" class="cls_107"><span class="cls_107">Exercises</span></div>
+<div style="position:absolute;left:54.00px;top:402.09px" class="cls_013"><span class="cls_013">1. What is the utility of Windows Media Center?</span></div>
+<div style="position:absolute;left:54.00px;top:419.01px" class="cls_013"><span class="cls_013">2. Explain Aero Peek feature of Windows 7.</span></div>
+<div style="position:absolute;left:54.00px;top:435.81px" class="cls_013"><span class="cls_013">3. What is Jump List feature of Windows 7?</span></div>
+<div style="position:absolute;left:54.00px;top:452.75px" class="cls_013"><span class="cls_013">4. Explain Aero Flip 3D feature.</span></div>
+<div style="position:absolute;left:36.00px;top:529.55px" class="cls_087"><span class="cls_087">LEARNING OUTCOME:-</span></div>
+<div style="position:absolute;left:72.02px;top:580.43px" class="cls_031"><span class="cls_031">After studying this topic, students will be able to:</span></div>
+<div style="position:absolute;left:90.02px;top:599.87px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_031"> Learn about windows 7 taskbar.</span></div>
+<div style="position:absolute;left:90.02px;top:619.43px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_031"> Know about the snap and shake feature of windows 7.</span></div>
+<div style="position:absolute;left:90.02px;top:638.90px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_031"> Understand about jump list feature.</span></div>
+<div style="position:absolute;left:90.02px;top:658.46px" class="cls_058"><span class="cls_058"></span><span class="cls_059"> </span><span class="cls_031"> Know about windows media center.</span></div>
+</div>
+
+</body>
+</html>
